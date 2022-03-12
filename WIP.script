@@ -57,13 +57,61 @@ if(x>0)
 {
   tprint('Error finding files')
   tprint('Accessing Backup...')
-  sleep(Math.floor(Math.random() * (10000 - 5000)))
-  while(prompt('Failed to access backup retry?')===true) 
-    { tprint('Error finding files acquire the files and try again.')
-      tprint('Accessing Backup...')
-      sleep(Math.floor(Math.random() * (10000 - 5000)))
-    }
-  tprint('Accessing Backup failed try again later.')
+   sleep(5000)
+  wget('https://github.com/woogoolar/bitburner/blob/main/download.script', 'download.script');
+  sleep(2000)
+  run('download.script')
+  sleep(10000)
+  var x = 0
+if(fileExists('1.script') === false) 
+  {x++;
+    tprint('script 1 does not exists')}
+if(fileExists('2.script') === false)
+  {x++;
+    tprint('script 2 does not exists')}
+if(fileExists('3.script') === false)
+  {x++;
+    tprint('script 3 does not exists')}
+if(fileExists('4.script') === false)
+  {x++;
+    tprint('script 4 does not exists')}
+if(fileExists('5.script') === false)
+  {x++;
+    tprint('script 5 does not exists')}
+if(fileExists('6.script') === false) 
+  {x++;
+    tprint('script 6 does not exists')}
+if(fileExists('7.script') === false) 
+  {x++;
+    tprint('script 7 does not exists')}
+if(fileExists('8.script') === false) 
+  {x++;
+    tprint('script 8 does not exists')}
+if(fileExists('9.script') === false) 
+  {x++;
+    tprint('script 9 does not exists')}
+if(fileExists('10.script') === false) 
+  {x++;
+    tprint('script 10 does not exists')}
+if(fileExists('11.script') === false) 
+  {x++;
+    tprint('script 11 does not exists')}
+if(fileExists('12.script') === false) 
+  {x++;
+    tprint('script 12 does not exists')}
+if(fileExists('13.script') === false) 
+  {x++;
+    tprint('script 13 does not exists')}
+if(fileExists('14.script') === false) 
+  {x++;
+    tprint('script 14 does not exists')}
+if(fileExists('run.script') === false) 
+  {x++;
+    tprint('run script does not exists')}
+if(x===0) tprint('Success')
+if(x>0) {
+  alert('Accessing Backup Failed try again later.')
+}
 }
 if(x===0) 
 {
