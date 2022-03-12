@@ -494,6 +494,8 @@ while(getHackingLevel()<getServerRequiredHackingLevel('zer0')) {
 while((peek(1))===peek(3)===false) {
 	sleep(1)
 }
+nuke('CSEC');
+exec('CSEC.script', 'CSEC');
 nuke('zer0');
 exec('run.script', 'zer0');
 while(getHackingLevel()<getServerRequiredHackingLevel('max-hardware')) {
