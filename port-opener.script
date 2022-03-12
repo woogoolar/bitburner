@@ -3,6 +3,8 @@ while(fileExists('BruteSSH.exe', 'home')===false) {
   sleep(5000)
 }
 if (fileExists("BruteSSH.exe", "home")) {
+    brutessh('iron-gym')
+    tprint('Iron Gym SSH PORT OPENED')
     brutessh("CSEC");
     tprint('CSEC SSH PORT OPENED')
     brutessh("zer0");
