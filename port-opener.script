@@ -1,0 +1,35 @@
+writePort(3, 1)
+while(fileExists('BruteSSH.exe', 'home')===false) {
+  sleep(5000)
+}
+if (fileExists("BruteSSH.exe", "home")) {
+    brutessh("CSEC");
+    tprint('CSEC SSH PORT OPENED')
+    brutessh("zer0");
+    tprint('zer0 SSH PORT OPENED')
+    brutessh("neo-net")
+    tprint('neo-net SSH PORT OPENED')
+    brutessh("johnson-ortho")
+    tprint('johnson-ortho SSH PORT OPENED')
+    brutessh("silver-helix")
+    tprint('silver-helix SSH PORT OPENED')
+    brutessh('max-hardware')
+    tprint('max hardware SSH PORT OPENED')
+    brutessh('omega-net')
+    tprint('omega net SSH PORT OPENED')
+    alert('SSH PORTS OPENED')
+    writePort(1, 1)
+}
+while(fileExists('FTPCrack.exe', 'home')===false) {
+	sleep(5000)
+}
+if(fileExists('FTPCrack.exe', "home")) {
+  ftpcrack("johnson-ortho");
+  tprint('johnson-orthopedics FTP PORT OPENED');
+  ftpcrack("silver-helix");
+  tprint('silver-helix FTP PORT OPENED');
+  ftpcrack('omega-net');
+  tprint('omega-net FTP PORT OPENED');
+  alert('FTP PORTS OPENED');
+  writePort(2, 1)
+}
