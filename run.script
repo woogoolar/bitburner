@@ -9,6 +9,15 @@ run('8.script')
 run('9.script')
 run('10.script')
 run('11.script')
+while(getHackingLevel()<getServerRequiredHackingLevel('johnson-ortho')) {
+	sleep(5000)
+}
 run('12.script')
+while(getHackingLevel()<getServerRequiredHackingLevel('max-hardware')) {
+	sleep(5000)
+}
 run('13.script')
+while(getHackingLevel()<getServerRequiredHackingLevel('omega-net')) {
+	sleep(5000)
+}
 run('14.script')
