@@ -1,4 +1,3 @@
-atExit(run('updaterun.script'))
 {
    tprint('Initializing')
    sleep(2000)
