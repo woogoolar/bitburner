@@ -1,4 +1,4 @@
-wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/hacknetdownload.script', 'home')
+wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/hacknetdownload.script', 'hacknetdownload.script')
 exec('hacknetdownload.script', 'home')
 sleep('5000')
 exec('0n.script', 'home')
