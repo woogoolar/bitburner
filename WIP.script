@@ -58,7 +58,7 @@ if(x>0)
   tprint('Error finding files')
   tprint('Accessing Backup...')
    sleep(5000)
-  wget('https://rawgithub.com/woogoolar/bitburner/blob/main/download.script', 'download.script');
+  wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/download.script', 'download.script');
   sleep(2000)
   run('download.script')
   sleep(10000)
