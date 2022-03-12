@@ -108,6 +108,7 @@ if(fileExists('14.script') === false)
 if(fileExists('run.script') === false) 
   {x++;
     tprint('run script does not exists')}
+rm('download.script')
 if(x===0) tprint('Success')
 if(x>0) {
   alert('Accessing Backup Failed try again later.')
