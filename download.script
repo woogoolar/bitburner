@@ -62,3 +62,4 @@ if(fileExists('run.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/run.script', 'run.script')
 tprint('run.script downloaded')
 }
+atExit(rm('download.script'))
