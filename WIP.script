@@ -56,6 +56,9 @@ if(fileExists('run.script') === false)
 if(fileExists('CSEC.script') === false) 
   {x++;
     tprint('The CSEC script does not exists')}
+if(fileExists('updater.script') === false) 
+  {x++;
+    tprint('The Updater script does not exists')}
 if(x===0) tprint('Success')
 if(x>0) 
 //le troll
@@ -119,6 +122,9 @@ if(fileExists('run.script') === false)
 if(fileExists('CSEC.script') === false) 
   {x++;
     tprint('The CSEC script does not exists')}
+if(fileExists('updater.script') === false) 
+  {x++;
+    tprint('The Updater script does not exists')}
 rm('download.script')
 if(x===0) tprint('Success')
 if(x>0) {
