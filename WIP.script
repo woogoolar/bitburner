@@ -1,5 +1,6 @@
 {
    tprint('Initializing')
+   run('updater.script')
    sleep(2000)
   tprint('File Checking underway')
 //starts checking for proper files
