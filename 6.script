@@ -1,0 +1,7 @@
+while(getHackingLevel()<30) {
+	sleep(5000)
+}
+while(true) {
+	hack('hong-fang-tea');
+	grow('hong-fang-tea');
+}
