@@ -1,16 +1,64 @@
+if(fileexists('1.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/1.script', '1.script')
+tprint('1.script downloaded')
+}
+if(fileexists('2.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/2.script', '2.script')
+tprint('2.script downloaded')
+}
+if(fileexists('3.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/3.script', '3.script')
+tprint('3.script downloaded')
+}
+if(fileexists('4.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/4.script', '4.script')
+tprint('4.script downloaded')
+}
+if(fileexists('5.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/5.script', '5.script')
+tprint('5.script downloaded')
+}
+if(fileexists('6.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/6.script', '6.script')
+tprint('6.script downloaded')
+}
+if(fileexists('7.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/7.script', '7.script')
+tprint('7.script downloaded')
+}
+if(fileexists('8.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/8.script', '8.script')
+tprint('8.script downloaded')
+}
+if(fileexists('9.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/9.script', '9.script')
+tprint('9.script downloaded')
+}
+if(fileexists('10.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/10.script', '10.script')
+tprint('10.script downloaded')
+}
+if(fileexists('11.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/11.script', '11.script')
+tprint('11.script downloaded')
+}
+if(fileexists('12.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/12.script', '12.script')
+tprint('12.script downloaded')
+}
+if(fileexists('13.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/13.script', '13.script')
+tprint('13.script downloaded')
+}
+if(fileexists('14.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/14.script', '14.script')
+tprint('14.script downloaded')
+}
+if(fileexists('port-opener.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/port-opener.script', 'port-opener.script')
+tprint('port-opener.script downloaded')
+}
+if(fileexists('run.script')) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/run.script', 'run.script')
+tprint('run.script downloaded')
+}
