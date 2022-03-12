@@ -1,6 +1,5 @@
 {
    tprint('Initializing')
-   run('updater.script')
    sleep(2000)
   tprint('File Checking underway')
 //starts checking for proper files
@@ -132,6 +131,7 @@ if(x>0) {
 kill
 }
 }
+run('updater.script')
 if(x===0) 
 {
 //n00dles=2 foodnstuff=8 sigma-cosmetics=8 joesguns=8 hong-fang-tea=8 harakiri-sushi=8 iron-gym=16 
