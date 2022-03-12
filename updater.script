@@ -2,7 +2,7 @@ wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/currentversion.
 while(peek(9)===read('currentversion.txt')) {
 	sleep(2000)
 	rm('currentversion.txt')
-	sleep(600000)
+	sleep(5000)
 	wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/currentversion.txt', 'currentversion.txt')
 }
 if(peek(9)!=read('currentversion.txt')) {
