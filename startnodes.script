@@ -1,29 +1,179 @@
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/hacknetdownload.script', 'hacknetdownload.script')
 exec('hacknetdownload.script', 'home')
 sleep('5000')
+if(numNodes()<1) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('0n.script', 'home')
+if(numNodes()<2) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('1n.script', 'home')
+if(numNodes()<3) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('2n.script', 'home')
+if(numNodes()<4) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('3n.script', 'home')
+if(numNodes()<5) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('4n.script', 'home')
+if(numNodes()<6) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('5n.script', 'home')
+if(numNodes()<7) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('6n.script', 'home')
+if(numNodes()<8) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('7n.script', 'home')
+if(numNodes()<9) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('8n.script', 'home')
+if(numNodes()<10) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('9n.script', 'home')
+if(numNodes()<11) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('10n.script', 'home')
+if(numNodes()<12) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('11n.script', 'home')
+if(numNodes()<13) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('12n.script', 'home')
+if(numNodes()<14) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('13n.script', 'home')
+if(numNodes()<15) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('14n.script', 'home')
+if(numNodes()<16) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('15n.script', 'home')
+if(numNodes()<17) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('16n.script', 'home')
+if(numNodes()<18) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('17n.script', 'home')
+if(numNodes()<19) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('18n.script', 'home')
+if(numNodes()<20) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('19n.script', 'home')
+if(numNodes()<21) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('20n.script', 'home')
+if(numNodes()<22) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('21n.script', 'home')
+if(numNodes()<23) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('22n.script', 'home')
+if(numNodes()<24) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('23n.script', 'home')
+if(numNodes()<25) {
+	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
+		sleep('1000')
+	}
+hacknet.purchaseNode()
+}
 exec('24n.script', 'home')
 rm('hacknetdownload.script')
