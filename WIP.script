@@ -58,9 +58,9 @@ if(x>0)
   tprint('Accessing Backup...')
    sleep(5000)
   wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/download.script', 'download.script');
-  sleep(2000)
+  sleep(1000)
   exec('download.script', 'home')
-  sleep(10000)
+  sleep(20000)
   var x = 0
 if(fileExists('1.script') === false) 
   {x++;
