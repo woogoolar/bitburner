@@ -455,67 +455,67 @@ exec('run.script', 'n00dles');
 nuke('foodnstuff');
 exec('run.script', 'foodnstuff');
 while(getHackingLevel()<getServerRequiredHackingLevel('sigma-cosmetics')) {
-	sleep(5000)
+	sleep(1)
 };
 nuke('sigma-cosmetics');
 exec('run.script', 'sigma-cosmetics');
 while(getHackingLevel()<getServerRequiredHackingLevel('joesguns')) {
-	sleep(5000)
+	sleep(1)
 };
 nuke('joesguns');
 exec('run.script', 'joesguns')
 while(getHackingLevel()<getServerRequiredHackingLevel('nectar-net')) {
-	sleep(5000)
+	sleep(1)
 };
 nuke('nectar-net');
 exec('run.script', 'nectar-net')
 while(getHackingLevel()<getServerRequiredHackingLevel('hong-fang-tea')) {
-	sleep(5000)
+	sleep(1)
 };
 nuke('hong-fang-tea');
 exec('run.script', 'hong-fang-tea')
 while(getHackingLevel()<getServerRequiredHackingLevel('harakiri-sushi')) {
-	sleep(5000)
+	sleep(1)
 };
 nuke('harakiri-sushi');
 exec('run.script', 'harakiri-sushi');
 while(getHackingLevel()<getServerRequiredHackingLevel('neo-net')) {
-	sleep(5000)
+	sleep(1)
 };
 while((peek(1))===peek(3)===false) {
-	sleep(5000)
+	sleep(1)
 }
 nuke('neo-net');
 exec('run.script', 'neo-net');
 while(getHackingLevel()<getServerRequiredHackingLevel('zer0')) {
-	sleep(5000)
+	sleep(1)
 };
 while((peek(1))===peek(3)===false) {
-	sleep(5000)
+	sleep(1)
 }
 nuke('zer0');
 run('run.script', 'zer0');
 while(getHackingLevel()<getServerRequiredHackingLevel('max-hardware')) {
-	sleep(5000)
+	sleep(1)
 };
 while((peek(1))===peek(3)===false) {
-	sleep(5000)
+	sleep(1)
 }
 nuke('max-hardware');
 run('run.script', 'max-hardware')
 while(getHackingLevel()<getServerRequiredHackingLevel('iron-gym')) {
-	sleep(5000)
+	sleep(1)
 };
 nuke('iron-gym');
 run('run.script', 'iron-gym');
 while(getHackingLevel()<getServerRequiredHackingLevel('silver-helix')) {
-	sleep(5000)
+	sleep(1)
 };
 while((peek(1))===peek(3)===false) {
-	sleep(5000)
+	sleep(1)
 }
 while((peek(2))===peek(3)===false) {
-	sleep(5000)
+	sleep(1)
 }
 nuke('silver-helix')
 run('run.script', 'silver-helix')
@@ -531,13 +531,13 @@ while((peek(2))===peek(3)===false) {
 nuke('omega-net')
 run('run.script', 'omega-net')
 while(getHackingLevel()<getServerRequiredHackingLevel('johnson-ortho')) {
-	sleep(5000)
+	sleep(1)
 };
 while((peek(1))===peek(3)===false) {
-	sleep(5000)
+	sleep(1)
 }
 while((peek(2))===peek(3)===false) {
-	sleep(5000)
+	sleep(1)
 }
 nuke('johnson-ortho')
 run('run.script', 'johnson-ortho')
