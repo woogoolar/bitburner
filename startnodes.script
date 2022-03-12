@@ -8,6 +8,8 @@ if(hacknet.numNodes()<1) {
 hacknet.purchaseNode()
 }
 exec('0n.script', 'home')
+exec('0nr.script', 'home')
+exec('0nc.script', 'home')
 if(hacknet.numNodes()<2) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -15,6 +17,8 @@ if(hacknet.numNodes()<2) {
 hacknet.purchaseNode()
 }
 exec('1n.script', 'home')
+exec('1nr.script', 'home')
+exec('1nc.script', 'home')
 if(hacknet.numNodes()<3) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -22,6 +26,8 @@ if(hacknet.numNodes()<3) {
 hacknet.purchaseNode()
 }
 exec('2n.script', 'home')
+exec('2nr.script', 'home')
+exec('2nc.script', 'home')
 if(hacknet.numNodes()<4) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -29,6 +35,8 @@ if(hacknet.numNodes()<4) {
 hacknet.purchaseNode()
 }
 exec('3n.script', 'home')
+exec('3nr.script', 'home')
+exec('3nc.script', 'home')
 if(hacknet.numNodes()<5) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -36,6 +44,8 @@ if(hacknet.numNodes()<5) {
 hacknet.purchaseNode()
 }
 exec('4n.script', 'home')
+exec('4nr.script', 'home')
+exec('4nc.script', 'home')
 if(hacknet.numNodes()<6) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -43,6 +53,8 @@ if(hacknet.numNodes()<6) {
 hacknet.purchaseNode()
 }
 exec('5n.script', 'home')
+exec('5nr.script', 'home')
+exec('5nc.script', 'home')
 if(hacknet.numNodes()<7) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -50,6 +62,8 @@ if(hacknet.numNodes()<7) {
 hacknet.purchaseNode()
 }
 exec('6n.script', 'home')
+exec('6nr.script', 'home')
+exec('6nc.script', 'home')
 if(hacknet.numNodes()<8) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -57,6 +71,8 @@ if(hacknet.numNodes()<8) {
 hacknet.purchaseNode()
 }
 exec('7n.script', 'home')
+exec('7nr.script', 'home')
+exec('7nc.script', 'home')
 if(hacknet.numNodes()<9) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -64,6 +80,8 @@ if(hacknet.numNodes()<9) {
 hacknet.purchaseNode()
 }
 exec('8n.script', 'home')
+exec('8nr.script', 'home')
+exec('8nc.script', 'home')
 if(hacknet.numNodes()<10) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -71,6 +89,8 @@ if(hacknet.numNodes()<10) {
 hacknet.purchaseNode()
 }
 exec('9n.script', 'home')
+exec('9nr.script', 'home')
+exec('9nc.script', 'home')
 if(hacknet.numNodes()<11) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -78,6 +98,8 @@ if(hacknet.numNodes()<11) {
 hacknet.purchaseNode()
 }
 exec('10n.script', 'home')
+exec('10nr.script', 'home')
+exec('10nc.script', 'home')
 if(hacknet.numNodes()<12) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -85,6 +107,8 @@ if(hacknet.numNodes()<12) {
 hacknet.purchaseNode()
 }
 exec('11n.script', 'home')
+exec('11nr.script', 'home')
+exec('11nc.script', 'home')
 if(hacknet.numNodes()<13) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -92,6 +116,8 @@ if(hacknet.numNodes()<13) {
 hacknet.purchaseNode()
 }
 exec('12n.script', 'home')
+exec('12nr.script', 'home')
+exec('12nc.script', 'home')
 if(hacknet.numNodes()<14) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -99,6 +125,8 @@ if(hacknet.numNodes()<14) {
 hacknet.purchaseNode()
 }
 exec('13n.script', 'home')
+exec('13nr.script', 'home')
+exec('13nc.script', 'home')
 if(hacknet.numNodes()<15) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -106,6 +134,8 @@ if(hacknet.numNodes()<15) {
 hacknet.purchaseNode()
 }
 exec('14n.script', 'home')
+exec('14nr.script', 'home')
+exec('14nc.script', 'home')
 if(hacknet.numNodes()<16) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -113,6 +143,8 @@ if(hacknet.numNodes()<16) {
 hacknet.purchaseNode()
 }
 exec('15n.script', 'home')
+exec('15nr.script', 'home')
+exec('15nc.script', 'home')
 if(hacknet.numNodes()<17) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -120,6 +152,8 @@ if(hacknet.numNodes()<17) {
 hacknet.purchaseNode()
 }
 exec('16n.script', 'home')
+exec('16nr.script', 'home')
+exec('16nc.script', 'home')
 if(hacknet.numNodes()<18) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -127,6 +161,8 @@ if(hacknet.numNodes()<18) {
 hacknet.purchaseNode()
 }
 exec('17n.script', 'home')
+exec('17nr.script', 'home')
+exec('17nc.script', 'home')
 if(hacknet.numNodes()<19) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -134,6 +170,8 @@ if(hacknet.numNodes()<19) {
 hacknet.purchaseNode()
 }
 exec('18n.script', 'home')
+exec('18nr.script', 'home')
+exec('18nc.script', 'home')
 if(hacknet.numNodes()<20) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -141,6 +179,8 @@ if(hacknet.numNodes()<20) {
 hacknet.purchaseNode()
 }
 exec('19n.script', 'home')
+exec('19nr.script', 'home')
+exec('19nc.script', 'home')
 if(hacknet.numNodes()<21) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -148,6 +188,8 @@ if(hacknet.numNodes()<21) {
 hacknet.purchaseNode()
 }
 exec('20n.script', 'home')
+exec('20nr.script', 'home')
+exec('20nc.script', 'home')
 if(hacknet.numNodes()<22) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -155,6 +197,8 @@ if(hacknet.numNodes()<22) {
 hacknet.purchaseNode()
 }
 exec('21n.script', 'home')
+exec('21nr.script', 'home')
+exec('21nc.script', 'home')
 if(hacknet.numNodes()<23) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -162,6 +206,8 @@ if(hacknet.numNodes()<23) {
 hacknet.purchaseNode()
 }
 exec('22n.script', 'home')
+exec('22nr.script', 'home')
+exec('22nc.script', 'home')
 if(hacknet.numNodes()<24) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -169,6 +215,8 @@ if(hacknet.numNodes()<24) {
 hacknet.purchaseNode()
 }
 exec('23n.script', 'home')
+exec('23nr.script', 'home')
+exec('23nc.script', 'home')
 if(hacknet.numNodes()<25) {
 	while((hacknet.getPurchaseNodeCost()<=getServerMoneyAvailable('home'))===false) {
 		sleep('1000')
@@ -176,4 +224,6 @@ if(hacknet.numNodes()<25) {
 hacknet.purchaseNode()
 }
 exec('24n.script', 'home')
+exec('24nr.script', 'home')
+exec('24nc.script', 'home')
 rm('hacknetdownload.script')
