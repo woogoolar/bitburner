@@ -111,6 +111,7 @@ rm('download.script')
 if(x===0) tprint('Success')
 if(x>0) {
   alert('Accessing Backup Failed try again later.')
+kill
 }
 }
 if(x===0) 
