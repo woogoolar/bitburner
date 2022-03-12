@@ -1,10 +1,10 @@
 while((peek(1)===peek(3))===false) {
-	sleep(5000)
+	sleep(5)
 }
-while(getHackingLevel()<50) {
+while(getHackingLevel()<getServerRequiredHackingLevel('zer0')) {
 	sleep(10000)
 }
 while(true) {
-	hack('neo-net');
-	grow('neo-net');
+	hack('zer0');
+	grow('zer0');
 }
