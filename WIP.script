@@ -130,6 +130,8 @@ if(x===0)
 {
 //n00dles=2 foodnstuff=8 sigma-cosmetics=8 joesguns=8 hong-fang-tea=8 harakiri-sushi=8 iron-gym=16 
 //virus spreading
+scp('CSEC.script', 'CSEC')
+tprint('CSEC.script has been sent to CSEC')
 scp('run.script', 'n00dles')
 tprint('run.script has been sent to n00dles')
 scp('1.script', 'n00dles');
