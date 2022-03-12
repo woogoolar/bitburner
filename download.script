@@ -1,28 +1,28 @@
-if(fileExists('1.script')) {
+if(fileExists('1.script')===false) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/1.script', '1.script')
 tprint('1.script downloaded')
 }
-if(fileExists('2.script')) {
+if(fileExists('2.script')===false) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/2.script', '2.script')
 tprint('2.script downloaded')
 }
-if(fileExists('3.script')) {
+if(fileExists('3.script')===false) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/3.script', '3.script')
 tprint('3.script downloaded')
 }
-if(fileExists('4.script')) {
+if(fileExists('4.script')===false) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/4.script', '4.script')
 tprint('4.script downloaded')
 }
-if(fileExists('5.script')) {
+if(fileExists('5.script')===false) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/5.script', '5.script')
 tprint('5.script downloaded')
 }
-if(fileExists('6.script')) {
+if(fileExists('6.script')===false) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/6.script', '6.script')
 tprint('6.script downloaded')
 }
-if(fileExists('7.script')) {
+if(fileExists('7.script')===false) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/7.script', '7.script')
 tprint('7.script downloaded')
 }
