@@ -17,3 +17,4 @@ if(peek(9)!=read('currentversion.txt')) {
 	writePort(9, x)
 }
 sleep(5000)
+run('updaterun.script')
