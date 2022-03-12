@@ -1,1 +1,16 @@
-
+while(peek(9)===read('currentversion.txt')) {
+	sleep(2000)
+	rm('currentversion.txt')
+	sleep(600000)
+	wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/currentversion.txt', 'currentversion.txt')
+}
+if(peek(9)>read('currentversion.txt')) {
+	wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/WIP.script', 'WIP.script')
+	wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/startnodes.script', 'startnodes.script')
+	sleep(5000)
+	exec('WIP.script', 'home')
+	exec('startnodes.script', 'home')
+	var x = (read('currentversion.txt'))
+	writePort(9, x)
+}
+sleep(5000)
