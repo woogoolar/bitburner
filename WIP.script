@@ -507,6 +507,9 @@ exec('run.script', 'max-hardware')
 while(getHackingLevel()<getServerRequiredHackingLevel('iron-gym')) {
 	sleep(1)
 };
+while((peek(1))===peek(3)===false) {
+	sleep(1)
+}
 nuke('iron-gym');
 exec('run.script', 'iron-gym');
 while(getHackingLevel()<getServerRequiredHackingLevel('silver-helix')) {
