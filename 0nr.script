@@ -1,8 +1,0 @@
-var x = (getServerMoneyAvailable('home'))
-while((hacknet.getNodeStats(0).ram)<64) {
-	if(hacknet.getRamUpgradeCost(0)<x) {
-		hacknet.upgradeRam(0)
-		sleep(1000)
-	}
-	sleep(1000)
-}
