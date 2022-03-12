@@ -1,50 +1,50 @@
 run('1.script')
 run('2.script')
 while(getHackingLevel()<5) {
-	sleep(5000)
+	sleep(10000)
 }
 run('3.script')
 while(getHackingLevel()<10) {
-	sleep(5000)
+	sleep(10000)
 }
 run('4.script')
 while(getHackingLevel()<20) {
-	sleep(5000)
+	sleep(10000)
 }
 run('5.script')
 while(getHackingLevel()<30) {
-	sleep(5000)
+	sleep(10000)
 }
 run('6.script')
 while(getHackingLevel()<40) {
-	sleep(5000)
+	sleep(10000)
 }
 run('7.script')
 while(getHackingLevel()<50) {
-	sleep(5000)
+	sleep(10000)
 }
 run('8.script')
 while(getHackingLevel()<75) {
-	sleep(5000)
+	sleep(10000)
 }
 run('9.script')
 while(getHackingLevel()<80) {
-	sleep(5000)
+	sleep(10000)
 }
 run('10.script')
 while(getHackingLevel()<100) {
-	sleep(5000)
+	sleep(10000)
 }
 run('11.script')
 while(getHackingLevel()<150) {
-	sleep(5000)
+	sleep(10000)
 }
 run('12.script')
 while(getHackingLevel()<213) {
-	sleep(5000)
+	sleep(10000)
 }
 run('13.script')
 while(getHackingLevel()<270) {
-	sleep(5000)
+	sleep(10000)
 }
 run('14.script')
