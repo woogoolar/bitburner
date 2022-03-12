@@ -1,3 +1,4 @@
+wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/currentversion.txt', 'currentversion.txt')
 while(peek(9)===read('currentversion.txt')) {
 	sleep(2000)
 	rm('currentversion.txt')
