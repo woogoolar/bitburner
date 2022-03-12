@@ -1,5 +1,4 @@
-//starts the operation with prompts
-if(prompt('Are you sure')) {
+{
    tprint('Initializing')
    sleep(2000)
   tprint('File Checking underway')
