@@ -34,6 +34,6 @@ wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/run.script', 'r
 tprint('run.script downloaded')
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/updater.script', 'updater.script')
 tprint('updater.script downloaded')
-wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/updaterrun.script', 'updaterrun.script')
-tprint('updaterrun.script downloaded')
+wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/updaterrun.script', 'updaterun.script')
+tprint('updaterun.script downloaded')
 tprint('Checking files')
