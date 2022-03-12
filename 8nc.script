@@ -1,8 +1,0 @@
-var x = (getServerMoneyAvailable('home'))
-while((hacknet.getNodeStats(8).cores)<16) {
-    if(hacknet.getCoreUpgradeCost(8)<x) {
-        hacknet.upgradeCore(8)
-        sleep(1000)
-    }
-    sleep(1000)
-}
