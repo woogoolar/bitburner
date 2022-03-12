@@ -1,3 +1,4 @@
+atExit(run('updater.script'))
 {
    tprint('Initializing')
    sleep(2000)
@@ -528,4 +529,3 @@ tprint('Finalizing')
 sleep(2000)
 tprint('Finished')
 }
-atExit(run('updater.script'))
