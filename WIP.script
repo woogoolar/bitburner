@@ -62,11 +62,11 @@ if(x>0)
 {
   tprint('Error finding files')
   tprint('Accessing Backup...')
-   sleep(5000)
+   sleep(1000)
   wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/download.script', 'download.script');
   sleep(1000)
   exec('download.script', 'home')
-  sleep(20000)
+  sleep(2000)
   var x = 0
 if(fileExists('1.script') === false) 
   {x++;
