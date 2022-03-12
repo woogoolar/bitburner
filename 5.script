@@ -1,0 +1,7 @@
+while(getHackingLevel()<20) {
+	sleep(5000)
+}
+while(true) {
+	hack('nectar-net');
+	grow('nectar-net');
+}
