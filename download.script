@@ -54,6 +54,10 @@ if(fileExists('14.script')===false) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/14.script', '14.script')
 tprint('14.script downloaded')
 }
+if(fileExists('CSEC.script')===false) {
+wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/CSEC.script', 'CSEC.script')
+tprint('CSEC.script downloaded')
+}
 if(fileExists('port-opener.script')===false) {
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/port-opener.script', 'port-opener.script')
 tprint('port-opener.script downloaded')
