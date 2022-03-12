@@ -1,3 +1,4 @@
+var x = (getservermoneyavaliabe('home'))
 while ((hacknet.getNodeStats(3).level) < 200) {
 	((hacknet.getLevelUpgradeCost(3) <= x))
 }
