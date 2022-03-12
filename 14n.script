@@ -1,4 +1,6 @@
-var x = (getServerMoneyAvaliable('home'))
+var x = (getServerMoneyAvailable('home'))
 while ((hacknet.getNodeStats(14).level) < 200) {
-	((hacknet.getLevelUpgradeCost(14) <= x))
+    if((hacknet.getLevelUpgradeCost(14) <= x)===true) {
+        hacknet.upgradeLevel(14)
+    }
 }
