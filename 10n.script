@@ -1,0 +1,3 @@
+while ((hacknet.getNodeStats(10).level) < 200) {
+	((hacknet.getLevelUpgradeCost(10) <= x))
+}
