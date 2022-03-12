@@ -1,0 +1,6 @@
+var x = (getServerMoneyAvailable('home'))
+while((hacknet.getNodeStats(10).ram)<64) {
+    if(hacknet.getRamUpgradeCost(10)<x) {
+        hacknet.upgradeRam(10)
+    }
+}
