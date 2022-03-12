@@ -1,0 +1,6 @@
+var x = (getServerMoneyAvailable('home'))
+while((hacknet.getNodeStats(13).core)<16) {
+    if(hacknet.getCoreUpgradeCost(13)<x) {
+        hacknet.upgradeCore(13)
+    }
+}
