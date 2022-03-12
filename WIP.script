@@ -60,7 +60,7 @@ if(x>0)
    sleep(5000)
   wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/download.script', 'download.script');
   sleep(2000)
-  exec('download.script')
+  exec('download.script', 'home')
   sleep(10000)
   var x = 0
 if(fileExists('1.script') === false) 
