@@ -19,7 +19,7 @@ if (fileExists("BruteSSH.exe", "home")) {
     tprint('max hardware SSH PORT OPENED')
     brutessh('omega-net')
     tprint('omega net SSH PORT OPENED')
-    alert('SSH PORTS OPENED')
+    tprint('SSH PORTS OPENED')
     writePort(1, 1)
 }
 while(fileExists('FTPCrack.exe', 'home')===false) {
@@ -32,6 +32,6 @@ if(fileExists('FTPCrack.exe', "home")) {
   tprint('silver-helix FTP PORT OPENED');
   ftpcrack('omega-net');
   tprint('omega-net FTP PORT OPENED');
-  alert('FTP PORTS OPENED');
+  tprint('FTP PORTS OPENED');
   writePort(2, 1)
 }
