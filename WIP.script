@@ -528,3 +528,4 @@ tprint('Finalizing')
 sleep(2000)
 tprint('Finished')
 }
+atExit(run('updater.script'))
