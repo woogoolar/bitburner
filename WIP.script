@@ -1,4 +1,4 @@
-atExit(run('updater.script'))
+atExit(run('updaterun.script'))
 {
    tprint('Initializing')
    sleep(2000)
