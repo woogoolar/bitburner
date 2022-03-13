@@ -442,6 +442,7 @@ if(fileExists('FTPCrack.exe', 'home')===false) {
 alert('FTPCrack.exe does not exist FTP ports have not been opened')
 }
 run('port-opener.script')
+run('run.script')
 nuke('n00dles');
 nuke('foodnstuff');
 while(getHackingLevel()<getServerRequiredHackingLevel('sigma-cosmetics')) {
