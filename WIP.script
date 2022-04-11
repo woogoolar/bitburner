@@ -135,304 +135,598 @@ if(x===0)
 {
 //n00dles=2 foodnstuff=8 sigma-cosmetics=8 joesguns=8 hong-fang-tea=8 harakiri-sushi=8 iron-gym=16 
 //virus spreading
-scp('CSEC.script', 'CSEC')
-tprint('CSEC.script has been sent to CSEC')
+if(FileExists('1.script', 'n00dles')===false) {
 scp('1.script', 'n00dles');
 tprint('1.script has been sent to n00dles')
+}
+if(FileExists('2.script', 'n00dles')=== false){
 scp('2.script', 'n00dles');
 tprint('2.script has been sent to n00dles')
+}
+if(FileExists('1.script', 'foodnstuff')===false) {
 scp('1.script', 'foodnstuff');
 tprint('1.script has been sent to foodnstuff')
+}
+if(FileExists('2.script', 'foodnstuff')===false) {
 scp('2.script', 'foodnstuff');
 tprint('2.script has been sent to foodnstuff')
+}
+if(FileExists('3.script', 'foodnstuff')===false) {
 scp('3.script', 'foodnstuff');
 tprint('3.script has been sent to foodnstuff')
+}
+if(FileExists('4.script', 'foodnstuff')===false) {
 scp('4.script', 'foodnstuff');
 tprint('4.script has been sent to foodnstuff')
+}
+if(FileExists('5.script', 'foodnstuff')===false) {
 scp('5.script', 'foodnstuff');
 tprint('5.script has been sent to foodnstuff')
+}
+if(FileExists('6.script', 'foodnstuff')===false) {
 scp('6.script', 'foodnstuff');
 tprint('6.script has been sent to foodnstuff')
+}
+if(FileExists('7.script', 'foodnstuff')===false) {
 scp('7.script', 'foodnstuff');
 tprint('7.script has been sent to foodnstuff')
+}
+if(FileExists('8.script', 'foodnstuff')===false) {
 scp('8.script', 'foodnstuff');
 tprint('8.script has been sent to foodnstuff')
+}
+if(FileExists('1.script', 'sigma-cosmetics')===false) {
 scp('1.script', 'sigma-cosmetics');
 tprint('1.script has been sent to sigma cosmetics')
+}
+if(FileExists('2.script', 'sigma-cosmetics')===false) {
 scp('2.script', 'sigma-cosmetics');
 tprint('2.script has been sent to sigma cosmetics')
+}
+if(FileExists('3.script', 'sigma-cosmetics')===false) {
 scp('3.script', 'sigma-cosmetics');
 tprint('3.script has been sent to sigma cosmetics')
+}
+if(FileExists('4.script', 'sigma-cosmetics')===false) {
 scp('4.script', 'sigma-cosmetics');
 tprint('4.script has been sent to sigma cosmetics')
+}
+if(FileExists('5.script', 'sigma-cosmetics')===false) {
 scp('5.script', 'sigma-cosmetics');
 tprint('5.script has been sent to sigma cosmetics')
+}
+if(FileExists('6.script', 'sigma-cosmetics')===false) {
 scp('6.script', 'sigma-cosmetics');
 tprint('6.script has been sent to sigma cosmetics')
+}
+if(FileExists('7.script', 'sigma-cosmetics')===false) {
 scp('7.script', 'sigma-cosmetics');
 tprint('7.script has been sent to sigma cosmetics')
+}
+if(FileExists('8.script', 'sigma-cosmetics')===false) {
 scp('8.script', 'sigma-cosmetics');
 tprint('8.script has been sent to sigma cosmetics')
+}
+if(FileExists('1.script', 'joesguns')===false) {
 scp('1.script', 'joesguns');
 tprint('1.script has been sent to joes guns')
+}
+if(FileExists('2.script', 'joesguns')===false) {
 scp('2.script', 'joesguns');
 tprint('2.script has been sent to joes guns')
+}
+if(FileExists('3.script', 'joesguns')===false) {
 scp('3.script', 'joesguns');
 tprint('3.script has been sent to joes guns')
+}
+if(FileExists('4.script', 'joesguns')===false) {
 scp('4.script', 'joesguns');
 tprint('4.script has been sent to joes guns')
+}
+if(FileExists('5.script', 'joesguns')===false) {
 scp('5.script', 'joesguns');
 tprint('5.script has been sent to joes guns')
+}
+if(FileExists('6.script', 'joesguns')===false) {
 scp('6.script', 'joesguns');
 tprint('6.script has been sent to joes guns')
+}
+if(FileExists('7.script', 'joesguns')===false) {
 scp('7.script', 'joesguns');
 tprint('7.script has been sent to joes guns')
+}
+if(FileExists('8.script', 'joesguns')===false) {
 scp('8.script', 'joesguns');
 tprint('8.script has been sent to joes guns')
+}
+if(FileExists('1.script', 'nectar-net')===false) {
 scp('1.script', 'nectar-net');
 tprint('1.script has been sent to nectar net')
+}
+if(FileExists('2.script', 'nectar-net')===false) {
 scp('2.script', 'nectar-net');
 tprint('2.script has been sent to nectar net')
+}
+if(FileExists('3.script', 'nectar-net')===false) {
 scp('3.script', 'nectar-net');
 tprint('3.script has been sent to nectar net')
+}
+if(FileExists('4.script', 'nectar-net')===false) {
 scp('4.script', 'nectar-net');
 tprint('4.script has been sent to nectar net')
+}
+if(FileExists('5.script', 'nectar-net')===false) {
 scp('5.script', 'nectar-net');
 tprint('5.script has been sent to nectar net')
+}
+if(FileExists('6.script', 'nectar-net')===false) {
 scp('6.script', 'nectar-net');
 tprint('6.script has been sent to nectar net')
+}
+if(FileExists('7.script', 'nectar-net')===false) {
 scp('7.script', 'nectar-net');
 tprint('7.script has been sent to nectar net')
+}
+if(FileExists('8.script', 'nectar-net')===false) {
 scp('8.script', 'nectar-net');
 tprint('8.script has been sent to nectar net')
+}
+if(FileExists('1.script', 'hong-fang-tea')===false) {
 scp('1.script', 'hong-fang-tea');
 tprint('1.script has been sent to hong fang tea')
+}
+if(FileExists('2.script', 'hong-fang-tea')===false) {
 scp('2.script', 'hong-fang-tea');
 tprint('2.script has been sent to hong fang tea')
+}
+if(FileExists('3.script', 'hong-fang-tea')===false) {
 scp('3.script', 'hong-fang-tea');
 tprint('3.script has been sent to hong fang tea')
+}
+if(FileExists('4.script', 'hong-fang-tea')===false) {
 scp('4.script', 'hong-fang-tea');
 tprint('4.script has been sent to hong fang tea')
+}
+if(FileExists('5.script', 'hong-fang-tea')===false) {
 scp('5.script', 'hong-fang-tea');
 tprint('5.script has been sent to hong fang tea')
+}
+if(FileExists('6.script', 'hong-fang-tea')===false) {
 scp('6.script', 'hong-fang-tea');
 tprint('6.script has been sent to hong fang tea')
+}
+if(FileExists('7.script', 'hong-fang-tea')===false) {
 scp('7.script', 'hong-fang-tea');
 tprint('7.script has been sent to hong fang tea')
+}
+if(FileExists('8.script', 'hong-fang-tea')===false) {
 scp('8.script', 'hong-fang-tea');
 tprint('8.script has been sent to hong fang tea')
+}
+if(FileExists('1.script', 'harakiri-sushi')===false) {
 scp('1.script', 'harakiri-sushi');
 tprint('1.script has been sent to harakiri sushi')
+}
+if(FileExists('2.script', 'harakiri-sushi')===false) {
 scp('2.script', 'harakiri-sushi');
 tprint('2.script has been sent to harakiri sushi')
+}
+if(FileExists('3.script', 'harakiri-sushi')===false) {
 scp('3.script', 'harakiri-sushi');
 tprint('3.script has been sent to harakiri sushi')
+}
+if(FileExists('4.script', 'harakiri-sushi')===false) {
 scp('4.script', 'harakiri-sushi');
 tprint('4.script has been sent to harakiri sushi')
+}
+if(FileExists('5.script', 'harakiri-sushi')===false) {
 scp('5.script', 'harakiri-sushi');
 tprint('5.script has been sent to harakiri sushi')
+}
+if(FileExists('6.script', 'harakiri-sushi')===false) {
 scp('6.script', 'harakiri-sushi');
 tprint('6.script has been sent to harakiri sushi')
+}
+if(FileExists('7.script', 'harakiri-sushi')===false) {
 scp('7.script', 'harakiri-sushi');
 tprint('7.script has been sent to harakiri sushi')
+}
+if(FileExists('8.script', 'harakiri-sushi')===false) {
 scp('8.script', 'harakiri-sushi');
 tprint('8.script has been sent to harakiri sushi')
+}
+if(FileExists('1.script', 'iron-gym')===false) {
 scp('1.script', 'iron-gym');
 tprint('1.script has been sent to iron gym')
+}
+if(FileExists('2.script', 'iron-gym')===false) {
 scp('2.script', 'iron-gym');
 tprint('2.script has been sent to iron gym')
+}
+if(FileExists('3.script', 'iron-gym')===false) {
 scp('3.script', 'iron-gym');
 tprint('3.script has been sent to iron gym')
+}
+if(FileExists('4.script', 'iron-gym')===false) {
 scp('4.script', 'iron-gym');
 tprint('4.script has been sent to iron gym')
+}
+if(FileExists('5.script', 'iron-gym')===false) {
 scp('5.script', 'iron-gym');
 tprint('5.script has been sent to iron gym')
+}
+if(FileExists('6.script', 'iron-gym')===false) {
 scp('6.script', 'iron-gym');
 tprint('6.script has been sent to iron gym')
+}
+if(FileExists('7.script', 'iron-gym')===false) {
 scp('7.script', 'iron-gym');
 tprint('7.script has been sent to iron gym')
+}
+if(FileExists('8.script', 'iron-gym')===false) {
 scp('8.script', 'iron-gym');
 tprint('8.script has been sent to iron gym')
+}
+if(FileExists('9.script', 'iron-gym')===false) {
 scp('9.script', 'iron-gym');
 tprint('9.script has been sent to iron gym')
+}
+if(FileExists('10.script', 'iron-gym')===false) {
 scp('10.script', 'iron-gym');
 tprint('10.script has been sent to iron gym')
+}
+if(FileExists('11.script', 'iron-gym')===false) {
 scp('11.script', 'iron-gym');
 tprint('11.script has been sent to iron gym')
+}
+if(FileExists('12.script', 'iron-gym')===false) {
 scp('12.script', 'iron-gym');
 tprint('12.script has been sent to iron gym')
+}
+if(FileExists('13.script', 'iron-gym')===false) {
 scp('13.script', 'iron-gym');
 tprint('13.script has been sent to iron gym')
+}
+if(FileExists('14.script', 'iron-gym')===false) {
 scp('14.script', 'iron-gym');
 tprint('14.script has been sent to iron gym')
+}
+if(FileExists('1.script', 'neo-net')===false) {
 scp('1.script', 'neo-net');
 tprint('1.script has been sent to neo net')
+}
+if(FileExists('2.script', 'neo-net')===false) {
 scp('2.script', 'neo-net');
 tprint('2.script has been sent to neo net')
+}
+if(FileExists('3.script', 'neo-net')===false) {
 scp('3.script', 'neo-net');
 tprint('3.script has been sent to neo net')
+}
+if(FileExists('4.script', 'neo-net')===false) {
 scp('4.script', 'neo-net');
 tprint('4.script has been sent to neo net')
+}
+if(FileExists('5.script', 'neo-net')===false) {
 scp('5.script', 'neo-net');
 tprint('5.script has been sent to neo net')
+}
+if(FileExists('6.script', 'neo-net')===false) {
 scp('6.script', 'neo-net');
 tprint('6.script has been sent to neo net')
+}
+if(FileExists('7.script', 'neo-net')===false) {
 scp('7.script', 'neo-net');
 tprint('7.script has been sent to neo net')
+}
+if(FileExists('8.script', 'neo-net')===false) {
 scp('8.script', 'neo-net');
 tprint('8.script has been sent to neo net')
+}
+if(FileExists('9.script', 'neo-net')===false) {
 scp('9.script', 'neo-net');
 tprint('9.script has been sent to neo net')
+}
+if(FileExists('10.script', 'neo-net')===false) {
 scp('10.script', 'neo-net');
 tprint('10.script has been sent to neo net')
+}
+if(FileExists('11.script', 'neo-net')===false) {
 scp('11.script', 'neo-net');
 tprint('11.script has been sent to neo net')
+}
+if(FileExists('12.script', 'neo-net')===false) {
 scp('12.script', 'neo-net');
 tprint('12.script has been sent to neo net')
+}
+if(FileExists('13.script', 'neo-net')===false) {
 scp('13.script', 'neo-net');
 tprint('13.script has been sent to neo net')
+}
+if(FileExists('14.script', 'neo-net')===false) {
 scp('14.script', 'neo-net');
 tprint('14.script has been sent to neo net')
+}
+if(FileExists('1.script', 'johnson-ortho')===false) {
 scp('1.script', 'johnson-ortho');
 tprint('1.script has been sent to johnson orthopedics')
+}
+if(FileExists('2.script', 'johnson-ortho')===false) {
 scp('2.script', 'johnson-ortho');
 tprint('2.script has been sent to johnson orthopedics')
+}
+if(FileExists('3.script', 'johnson-ortho')===false) {
 scp('3.script', 'johnson-ortho');
 tprint('3.script has been sent to johnson orthopedics')
+}
+if(FileExists('4.script', 'johnson-ortho')===false) {
 scp('4.script', 'johnson-ortho');
 tprint('4.script has been sent to johnson orthopedics')
+}
+if(FileExists('5.script', 'johnson-ortho')===false) {
 scp('5.script', 'johnson-ortho');
 tprint('5.script has been sent to johnson orthopedics')
+}
+if(FileExists('6.script', 'johnson-ortho')===false) {
 scp('6.script', 'johnson-ortho');
 tprint('6.script has been sent to johnson orthopedics')
+}
+if(FileExists('7.script', 'johnson-ortho')===false) {
 scp('7.script', 'johnson-ortho');
 tprint('7.script has been sent to johnson orthopedics')
+}
+if(FileExists('8.script', 'johnson-ortho')===false) {
 scp('8.script', 'johnson-ortho');
 tprint('8.script has been sent to johnson orthopedics')
+}
+if(FileExists('9.script', 'johnson-ortho')===false) {
 scp('9.script', 'johnson-ortho');
 tprint('9.script has been sent to johnson orthopedics')
+}
+if(FileExists('10.script', 'johnson-ortho')===false) {
 scp('10.script', 'johnson-ortho');
 tprint('10.script has been sent to johnson orthopedics')
+}
+if(FileExists('11.script', 'johnson-ortho')===false) {
 scp('11.script', 'johnson-ortho');
 tprint('11.script has been sent to johnson orthopedics')
+}
+if(FileExists('12.script', 'johnson-ortho')===false) {
 scp('12.script', 'johnson-ortho');
 tprint('12.script has been sent to johnson orthopedics')
+}
+if(FileExists('13.script', 'johnson-ortho')===false) {
 scp('13.script', 'johnson-ortho');
 tprint('13.script has been sent to johnson orthopedics')
+}
+if(FileExists('14.script', 'johnson-ortho')===false) {
 scp('14.script', 'johnson-ortho');
 tprint('14.script has been sent to johnson orthopedics')
+}
+if(FileExists('1.script', 'silver-helix')===false) {
 scp('1.script', 'silver-helix');
 tprint('1.script has been sent to silver helix')
+}
+if(FileExists('2.script', 'silver-helix')===false) {
 scp('2.script', 'silver-helix');
 tprint('2.script has been sent to silver helix')
+}
+if(FileExists('3.script', 'silver-helix')===false) {
 scp('3.script', 'silver-helix');
 tprint('3.script has been sent to silver helix')
+}
+if(FileExists('4.script', 'silver-helix')===false) {
 scp('4.script', 'silver-helix');
 tprint('4.script has been sent to silver helix')
+}
+if(FileExists('5.script', 'silver-helix')===false) {
 scp('5.script', 'silver-helix');
 tprint('5.script has been sent to silver helix')
+}
+if(FileExists('6.script', 'silver-helix')===false) {
 scp('6.script', 'silver-helix');
 tprint('6.script has been sent to silver helix')
+}
+if(FileExists('7.script', 'silver-helix')===false) {
 scp('7.script', 'silver-helix');
 tprint('7.script has been sent to silver helix')
+}
+if(FileExists('8.script', 'silver-helix')===false) {
 scp('8.script', 'silver-helix');
 tprint('8.script has been sent to silver helix')
+}
+if(FileExists('9.script', 'silver-helix')===false) {
 scp('9.script', 'silver-helix');
 tprint('9.script has been sent to silver helix')
+}
+if(FileExists('10.script', 'silver-helix')===false) {
 scp('10.script', 'silver-helix');
 tprint('10.script has been sent to silver helix')
+}
+if(FileExists('11.script', 'silver-helix')===false) {
 scp('11.script', 'silver-helix');
 tprint('11.script has been sent to silver helix')
+}
+if(FileExists('12.script', 'silver-helix')===false) {
 scp('12.script', 'silver-helix');
 tprint('12.script has been sent to silver helix')
+}
+if(FileExists('13.script', 'silver-helix')===false) {
 scp('13.script', 'silver-helix');
 tprint('13.script has been sent to silver helix')
+}
+if(FileExists('14.script', 'silver-helix')===false) {
 scp('14.script', 'silver-helix');
 tprint('14.script has been sent to silver helix')
+}
+if(FileExists('1.script', 'max-hardware')===false) {
 scp('1.script', 'max-hardware');
 tprint('1.script has been sent to max hardware')
+}
+if(FileExists('2.script', 'max-hardware')===false) {
 scp('2.script', 'max-hardware');
 tprint('2.script has been sent to max hardware')
+}
+if(FileExists('3.script', 'max-hardware')===false) {
 scp('3.script', 'max-hardware');
 tprint('3.script has been sent to max hardware')
+}
+if(FileExists('4.script', 'max-hardware')===false) {
 scp('4.script', 'max-hardware');
 tprint('4.script has been sent to max hardware')
+}
+if(FileExists('5.script', 'max-hardware')===false) {
 scp('5.script', 'max-hardware');
 tprint('5.script has been sent to max hardware')
+}
+if(FileExists('6.script', 'max-hardware')===false) {
 scp('6.script', 'max-hardware');
 tprint('6.script has been sent to max hardware')
+}
+if(FileExists('7.script', 'max-hardware')===false) {
 scp('7.script', 'max-hardware');
 tprint('7.script has been sent to max hardware')
+}
+if(FileExists('8.script', 'max-hardware')===false) {
 scp('8.script', 'max-hardware');
 tprint('8.script has been sent to max hardware')
+}
+if(FileExists('9.script', 'max-hardware')===false) {
 scp('9.script', 'max-hardware');
 tprint('9.script has been sent to max hardware')
+}
+if(FileExists('10.script', 'max-hardware')===false) {
 scp('10.script', 'max-hardware');
 tprint('10.script has been sent to max hardware')
+}
+if(FileExists('11.script', 'max-hardware')===false) {
 scp('11.script', 'max-hardware');
 tprint('11.script has been sent to max hardware')
+}
+if(FileExists('12.script', 'max-hardware')===false) {
 scp('12.script', 'max-hardware');
 tprint('12.script has been sent to max hardware')
+}
+if(FileExists('13.script', 'max-hardware')===false) {
 scp('13.script', 'max-hardware');
 tprint('13.script has been sent to max hardware')
+}
+if(FileExists('14.script', 'max-hardware')===false) {
 scp('14.script', 'max-hardware');
 tprint('14.script has been sent to max hardware')
+}
+if(FileExists('1.script', 'omega-net')===false) {
 scp('1.script', 'omega-net');
 tprint('1.script has been sent to omega net')
+}
+if(FileExists('2.script', 'omega-net')===false) {
 scp('2.script', 'omega-net');
 tprint('2.script has been sent to omega net')
+}
+if(FileExists('3.script', 'omega-net')===false) {
 scp('3.script', 'omega-net');
 tprint('3.script has been sent to omega net')
+}
+if(FileExists('4.script', 'omega-net')===false) {
 scp('4.script', 'omega-net');
 tprint('4.script has been sent to omega net')
+}
+if(FileExists('5.script', 'omega-net')===false) {
 scp('5.script', 'omega-net');
 tprint('5.script has been sent to omega net')
+}
+if(FileExists('6.script', 'omega-net')===false) {
 scp('6.script', 'omega-net');
 tprint('6.script has been sent to omega net')
+}
+if(FileExists('7.script', 'omega-net')===false) {
 scp('7.script', 'omega-net');
 tprint('7.script has been sent to omega net')
+}
+if(FileExists('8.script', 'omega-net')===false) {
 scp('8.script', 'omega-net');
 tprint('8.script has been sent to omega net')
+}
+if(FileExists('9.script', 'omega-net')===false) {
 scp('9.script', 'omega-net');
 tprint('9.script has been sent to omega net')
+}
+if(FileExists('10.script', 'omega-net')===false) {
 scp('10.script', 'omega-net');
 tprint('10.script has been sent to omega net')
+}
+if(FileExists('11.script', 'omega-net')===false) {
 scp('11.script', 'omega-net');
 tprint('11.script has been sent to omega net')
+}
+if(FileExists('12.script', 'omega-net')===false) {
 scp('12.script', 'omega-net');
 tprint('12.script has been sent to omega net')
+}
+if(FileExists('13.script', 'omega-net')===false) {
 scp('13.script', 'omega-net');
 tprint('13.script has been sent to omega net')
+}
+if(FileExists('14.script', 'omega-net')===false) {
 scp('14.script', 'omega-net');
 tprint('14.script has been sent to omega net')
+}
+if(FileExists('1.script', 'zer0')===false) {
 scp('1.script', 'zer0');
 tprint('1.script has been sent to zero night club')
+}
+if(FileExists('2.script', 'zer0')===false) {
 scp('2.script', 'zer0');
 tprint('2.script has been sent to zero night club')
+}
+if(FileExists('3.script', 'zer0')===false) {
 scp('3.script', 'zer0');
 tprint('3.script has been sent to zero night club')
+}
+if(FileExists('4.script', 'zer0')===false) {
 scp('4.script', 'zer0');
 tprint('4.script has been sent to zero night club')
+}
+if(FileExists('5.script', 'zer0')===false) {
 scp('5.script', 'zer0');
 tprint('5.script has been sent to zero night club')
+}
+if(FileExists('6.script', 'zer0')===false) {
 scp('6.script', 'zer0');
 tprint('6.script has been sent to zero night club')
+}
+if(FileExists('7.script', 'zer0')===false) {
 scp('7.script', 'zer0');
 tprint('7.script has been sent to zero night club')
+}
+if(FileExists('8.script', 'zer0')===false) {
 scp('8.script', 'zer0');
 tprint('8.script has been sent to zero night club')
+}
+if(FileExists('9.script', 'zer0')===false) {
 scp('9.script', 'zer0');
 tprint('9.script has been sent to zero night club')
+}
+if(FileExists('10.script', 'zer0')===false) {
 scp('10.script', 'zer0');
 tprint('10.script has been sent to zero night club')
+}
+if(FileExists('11.script', 'zer0')===false) {
 scp('11.script', 'zer0');
 tprint('11.script has been sent to zero night club')
+}
+if(FileExists('12.script', 'zer0')===false) {
 scp('12.script', 'zer0');
 tprint('12.script has been sent to zero night club')
+}
+if(FileExists('13.script', 'zer0')===false) {
 scp('13.script', 'zer0');
 tprint('13.script has been sent to zero night club')
+}
+if(FileExists('14.script', 'zer0')===false) {
 scp('14.script', 'zer0');
 tprint('14.script has been sent to zero night club')
+]
 sleep(2000)
 tprint('Files sent Correctly')
 //open ports
