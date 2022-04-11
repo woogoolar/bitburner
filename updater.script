@@ -8,8 +8,7 @@ while(peek(9)===read('currentversion.txt')) {
 if(peek(9)!==read('currentversion.txt')) {
 	kill('WIP.script', 'home')
 	kill('startnodes.script', 'home')
-	wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/WIP.script', 'WIP.script')
-	wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/startnodes.script', 'startnodes.script')
+	exec ('download.script', 'home')
 	sleep(5000)
 	exec('WIP.script', 'home')
 	exec('startnodes.script', 'home')
