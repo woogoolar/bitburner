@@ -1,6 +1,0 @@
-var x = (getServerMoneyAvailable('home'))
-while ((hacknet.getNodeStats(7).level) < 200) {
-    if((hacknet.getLevelUpgradeCost(7) <= x)===true) {
-		hacknet.upgradeLevel(7)
-	}
-}
