@@ -37,6 +37,7 @@ sleep(500)
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/updater.script', 'updater.script')
 tprint('updater.script downloaded')
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/updaterrun.script', 'updaterun.script')
+wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/Nodes.script', 'Nodes.script')
 tprint('updaterun.script downloaded')
 tprint('Checking files')
 //starts checking for proper files
