@@ -6,6 +6,91 @@ while(peek(9)===read('currentversion.txt')) {
 	wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/currentversion.txt', 'currentversion.txt')
 }
 if(peek(9)!==read('currentversion.txt')) {
+	var x = 'n00dles'
+	var y = 0
+	while ((y === 14) === false) {
+		killall(x)
+		sleep(500)
+		rm('1.script', x)
+		rm('2.script', x)
+		if (y > 0) {
+			rm('3.script', x)
+		}
+		if (y > 0) {
+			rm('4.script', x)
+		}
+		if (y > 0) {
+			rm('5.script', x)
+		}
+		if (y > 0) {
+			rm('6.script', x)
+		}
+		if (y > 0) {
+			rm('7.script', x)
+		}
+		if (y > 0) {
+			rm('8.script', x)
+		}
+		if (y > 6) {
+			rm('9.script', x)
+		}
+		if (y > 6) {
+			rm('10.script', x)
+		}
+		if (y > 6) {
+			rm('11.script', x)
+		}
+		if (y > 6) {
+			rm('12.script', x)
+		}
+		if (y > 6) {
+			rm('13.script', x)
+		}
+		if (y > 6) {
+			rm('14.script', x)
+		}
+		y++
+		if (y === 1) {
+			var x = 'foodnstuff'
+		}
+		if (y === 2) {
+			var x = 'sigma-cosmetics'
+		}
+		if (y === 3) {
+			var x = 'joesguns'
+		}
+		if (y === 4) {
+			var x = 'hong-fang-tea'
+		}
+		if (y === 5) {
+			var x = 'nectar-net'
+		}
+		if (y === 6) {
+			var x = 'harakiri-sushi'
+		}
+		if (y === 7) {
+			var x = 'neo-net'
+		}
+		if (y === 8) {
+			var x = 'zer0'
+		}
+		if (y === 9) {
+			var x = 'max-hardware'
+		}
+		if (y === 10) {
+			var x = 'iron-gym'
+		}
+		if (y === 11) {
+			var x = 'omega-net'
+		}
+		if (y === 12) {
+			var x = 'silver-helix'
+		}
+		if (y === 13) {
+			var x = 'johnson-ortho'
+		}
+	}
+	sleep(1000)
 	kill('WIP.script', 'home')
 	kill('startnodes.script', 'home')
 	exec ('download.script', 'home')
