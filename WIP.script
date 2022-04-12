@@ -145,51 +145,51 @@ var y = 0
 		scp('2.script', x)
 		tprint('2.script has been sent to ', x)
 	}
-	if(fileExists('3.script', x)===false,y>0) {
+	if(fileExists('3.script', x)===false && y>0) {
 		scp('3.script', x)
 		tprint('3.script has been sent to ', x)
 	}
-	if(fileExists('4.script', x)===false,y>0) {
+	if(fileExists('4.script', x)===false && y>0) {
 		scp('4.script', x)
 		tprint('4.script has been sent to ', x)
 	}
-	if(fileExists('5.script', x)===false,y>0) {
+	if(fileExists('5.script', x)===false && y>0) {
 		scp('5.script', x)
 		tprint('5.script has been sent to ', x)
 	}
-	if(fileExists('6.script', x)===false,y>0) {
+	if(fileExists('6.script', x)===false && y>0) {
 		scp('6.script', x)
 		tprint('6.script has been sent to ', x)
 	}
-	if(fileExists('7.script', x)===false,y>0) {
+	if(fileExists('7.script', x)===false && y>0) {
 		scp('7.script', x)
 		tprint('7.script has been sent to ', x)
 	}
-	if(fileExists('8.script', x)===false,y>0) {
+	if(fileExists('8.script', x)===false && y>0) {
 		scp('8.script', x)
 		tprint('8.script has been sent to ', x)
 	}
-	if(fileExists('9.script', x)===false,y>6) {
+	if(fileExists('9.script', x)===false && y>6) {
 		scp('9.script', x)
 		tprint('9.script has been sent to ', x)
 	}
-	if(fileExists('10.script', x)===false,y>6) {
+	if(fileExists('10.script', x)===false && y>6) {
 		scp('10.script', x)
 		tprint('10.script has been sent to ', x)
 	}
-	if(fileExists('11.script', x)===false,y>6) {
+	if(fileExists('11.script', x)===false && y>6) {
 		scp('11.script', x)
 		tprint('11.script has been sent to ', x)
 	}
-	if(fileExists('12.script', x)===false,y>6) {
+	if(fileExists('12.script', x)===false && y>6) {
 		scp('12.script', x)
 		tprint('12.script has been sent to ', x)
 	}
-	if(fileExists('13.script', x)===false,y>6) {
+	if(fileExists('13.script', x)===false && y>6) {
 		scp('13.script', x)
 		tprint('13.script has been sent to ', x)
 	}
-	if(fileExists('14.script', x)===false,y>6) {
+	if(fileExists('14.script', x)===false && y>6) {
 		scp('14.script', x)
 		tprint('14.script has been sent to ', x)
 	}
