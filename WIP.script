@@ -133,6 +133,7 @@ kill
 }
 if(x===0) 
 {
+tprint('Distributing Virus')
 var x = 'n00dles'
 var y = 0
 //virus spreading
