@@ -1,4 +1,4 @@
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/updater.script', 'updater.script')
-sleep('5000')
+sleep('10000')
 run('updater.script')
 kill('updaterun.script', 'home')
