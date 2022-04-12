@@ -1,0 +1,30 @@
+var x = 0
+while ((hacknet.numNodes === 50) === false) {
+	if ((hacknet.numNodes >= x && (hacknet.getNodeStats(x).level)===200 && (hacknet.getNodeStats(x).cores)===16 && (hacknet.getNodeStats(x).ram)===64)===false) {
+		if (hacknet.getNodeStats(x).level < 200) {
+			while (hacknet.getLevelUpgradeCost(x) < (getServerMoneyAvailable('home') * 0.7)) {
+				hacknet.upgradeLevel(x, 1)
+			}
+		}
+		if (hacknet.getNodeStats(x).ram < 64) {
+			while (hacknet.getRamUpgradeCost(x) < (getServerMoneyAvailable('home') * 0.8)) {
+				hacknet.upgradeRam(x, 1)
+			}
+		}
+		if (hacknet.getNodeStats(x).cores < 16) {
+			while (hacknet.getCoreUpgradeCost(x) < (getServerMoneyAvailable('home') * 0.85)) {
+				hacknet.upgradeCore(x, 1)
+			}
+		}
+	}
+	if (x >= (hacknet.numNodes()-1)) {
+		x = 0
+	}
+	sleep(100)
+	if (x < hacknet.numNodes()) {
+		x++;
+	}
+	if(getServerMoneyAvailable('home')*0.9>hacknet.getPurchaseNodeCost()) {
+		hacknet.purchaseNode()
+	}
+}
