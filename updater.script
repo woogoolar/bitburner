@@ -6,6 +6,7 @@ while(peek(9)===read('currentversion.txt')) {
 	wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/currentversion.txt', 'currentversion.txt')
 }
 if(peek(9)!==read('currentversion.txt')) {
+	kill('Nodes.script', 'home')
 	var x = 'n00dles'
 	var y = 0
 	while ((y === 14) === false) {
@@ -92,11 +93,10 @@ if(peek(9)!==read('currentversion.txt')) {
 	}
 	sleep(1000)
 	kill('WIP.script', 'home')
-	kill('startnodes.script', 'home')
 	exec ('download.script', 'home')
 	sleep(5000)
 	exec('WIP.script', 'home')
-	exec('startnodes.script', 'home')
+	exec('Nodes.script', 'home')
 	var x = (read('currentversion.txt'))
 	writePort(9, x)
 }
