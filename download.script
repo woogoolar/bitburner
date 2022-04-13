@@ -32,7 +32,6 @@ wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/port-opener.scr
 tprint('port-opener.script downloaded')
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/run.script', 'run.script')
 tprint('run.script downloaded')
-kill('updater.script', 'home')
 sleep(500)
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/updater.script', 'updater.script')
 tprint('updater.script downloaded')
