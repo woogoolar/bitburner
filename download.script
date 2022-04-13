@@ -26,6 +26,8 @@ wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/13.script', '13
 tprint('13.script downloaded')
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/14.script', '14.script')
 tprint('14.script downloaded')
+wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/15.script', '15.script')
+tprint('15.script downloaded')
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/CSEC.script', 'CSEC.script')
 tprint('CSEC.script downloaded')
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/port-opener.script', 'port-opener.script')
