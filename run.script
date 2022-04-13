@@ -115,7 +115,6 @@ exec('5.script', 'iron-gym')
 exec('4.script', 'iron-gym')
 exec('3.script', 'iron-gym')
 exec('2.script', 'iron-gym')
-exec('1.script', 'iron-gym')
 while(getHackingLevel()<150) {
 	sleep(10000)
 }
