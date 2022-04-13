@@ -1,2 +1,2 @@
 added phantasy
-files will be run in more places
+but script wont run for it yet as i am working on a better run script im new so give me time
