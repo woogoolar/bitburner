@@ -14,43 +14,43 @@ if(peek(9)!==read('currentversion.txt')) {
 		sleep(500)
 		rm('1.script', x)
 		rm('2.script', x)
-		if (y > 0) {
+		if (true) {
 			rm('3.script', x)
 		}
-		if (y > 0) {
+		if (true) {
 			rm('4.script', x)
 		}
-		if (y > 0) {
+		if (true) {
 			rm('5.script', x)
 		}
-		if (y > 0) {
+		if (true) {
 			rm('6.script', x)
 		}
-		if (y > 0) {
+		if (true) {
 			rm('7.script', x)
 		}
-		if (y > 0) {
+		if (true) {
 			rm('8.script', x)
 		}
-		if (y > 6) {
+		if (true) {
 			rm('9.script', x)
 		}
-		if (y > 6) {
+		if (true) {
 			rm('10.script', x)
 		}
-		if (y > 6) {
+		if (true) {
 			rm('11.script', x)
 		}
-		if (y > 6) {
+		if (true) {
 			rm('12.script', x)
 		}
-		if (y > 6) {
+		if (true) {
 			rm('13.script', x)
 		}
-		if (y > 6) {
+		if (true) {
 			rm('14.script', x)
 		}
-		if (y > 6) {
+		if (true) {
 			rm('15.script', x)
 		}
 		y++
