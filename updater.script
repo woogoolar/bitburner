@@ -85,7 +85,7 @@ if(peek(9)!==read('currentversion.txt')) {
 			var x = 'iron-gym'
 		}
 		if (y === 11) {
-			var x = 'iron-gym'
+			var x = 'phantasy'
 		}
 		if (y === 12) {
 			var x = 'omega-net'
