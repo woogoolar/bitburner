@@ -72,71 +72,23 @@ kill
 if(x===0) 
 {
 tprint('Distributing Virus')
-var x = 'n00dles'
-var y = 0
 //virus spreading
-     while((y===16)===false) {
-	if(fileExists('1.script', x)===false) {
-		scp('1.script', x)
-		tprint('1.script has been sent to ', x)
+var num = 1
+var y = 0
+var x = 'n00dles'
+var bRUH = (num+'.script')
+while(y<16) {
+while(num<15) {
+var bRUH = (num+'.script');
+if(fileExists(bRUH, x)===true) {
+	num++
+}
+if(fileExists(bRUH, x)===false) {
+	scp(bRUH, x);
+	tprint(bRUH+' has been sent to ', x);
+	num++;
 	}
-	if(fileExists('2.script', x)===false) {
-		scp('2.script', x)
-		tprint('2.script has been sent to ', x)
-	}
-	if(fileExists('3.script', x)===false && y>0) {
-		scp('3.script', x)
-		tprint('3.script has been sent to ', x)
-	}
-	if(fileExists('4.script', x)===false && y>0) {
-		scp('4.script', x)
-		tprint('4.script has been sent to ', x)
-	}
-	if(fileExists('5.script', x)===false && y>0) {
-		scp('5.script', x)
-		tprint('5.script has been sent to ', x)
-	}
-	if(fileExists('6.script', x)===false && y>0) {
-		scp('6.script', x)
-		tprint('6.script has been sent to ', x)
-	}
-	if(fileExists('7.script', x)===false && y>0) {
-		scp('7.script', x)
-		tprint('7.script has been sent to ', x)
-	}
-	if(fileExists('8.script', x)===false && y>0) {
-		scp('8.script', x)
-		tprint('8.script has been sent to ', x)
-	}
-	if(fileExists('9.script', x)===false && y>6) {
-		scp('9.script', x)
-		tprint('9.script has been sent to ', x)
-	}
-	if(fileExists('10.script', x)===false && y>6) {
-		scp('10.script', x)
-		tprint('10.script has been sent to ', x)
-	}
-	if(fileExists('11.script', x)===false && y>6) {
-		scp('11.script', x)
-		tprint('11.script has been sent to ', x)
-	}
-	if(fileExists('12.script', x)===false && y>6) {
-		scp('12.script', x)
-		tprint('12.script has been sent to ', x)
-	}
-	if(fileExists('13.script', x)===false && y>6) {
-		scp('13.script', x)
-		tprint('13.script has been sent to ', x)
-	}
-	if(fileExists('14.script', x)===false && y>6) {
-		scp('14.script', x)
-		tprint('14.script has been sent to ', x)
-	}
-	if(fileExists('15.script', x)===false && y>6) {
-		scp('15.script', x)
-		tprint('15.script has been sent to ', x)
-	}
-	y++
+}
 	if(y===1) {
 		var x = 'foodnstuff'
 	}
