@@ -50,76 +50,48 @@ while(true) {
     exec('2.script', x)
     if(getHackingLevel()<getServerRequiredHackingLevel('sigma-cosmetics')) {
         y++
-        continue runloop
-    }
     exec('3.script', x)
     if(getHackingLevel()<getServerRequiredHackingLevel('joesguns')) {
         y++
-        continue runloop
-    }
     exec('4.script', x)
     if(getHackingLevel()<getServerRequiredHackingLevel('nectar-net')) {
         y++
-        continue runloop
-    }
     exec('5.script', x)
     if(getHackingLevel()<getServerRequiredHackingLevel('hong-fang-tea')) {
         y++
-        continue runloop
-    }
     exec('6.script', x)
     if(getHackingLevel()<getServerRequiredHackingLevel('harakiri-sushi')) {
         y++
-        continue runloop
-    }
     exec('7.script', x)
     if(getHackingLevel()<getServerRequiredHackingLevel('neo-net')) {
         y++
-        continue runloop
-    }
     exec('8.script', x)
     if(getHackingLevel()<getServerRequiredHackingLevel('CSEC')) {
         y++
-        continue runloop
-    }
     if(getHackingLevel()<getServerRequiredHackingLevel('zer0')) {
         y++
-        continue runloop
-    }
     exec('9.script', x)
     if(getHackingLevel()<getServerRequiredHackingLevel('max-hardware')) {
         y++
-        continue runloop
-    }
     exec('10.script', x)
     if(getHackingLevel()<getServerRequiredHackingLevel('iron-gym')) {
         y++
-        continue runloop
-    }
     exec('11.script', x)
     if(getHackingLevel()<getServerRequiredHackingLevel('phantasy')) {
         y++
-        continue runloop
-    }
     exec('12.script', x)
     if(getHackingLevel()<getServerRequiredHackingLevel('silver-helix')) {
         y++
-        continue runloop
-    }
     exec('13.script', x)
     if(getHackingLevel()<getServerRequiredHackingLevel('omega-net')) {
         y++
-        continue runloop
-    }
     exec('14.script', x)
     if(getServerRequiredHackingLevel('avmnite-02h')>getHackingLevel()) {
     	y++
-	continue runloop
-    }
     if(getServerRequiredHackingLevel('johnson-ortho')>getHackingLevel()) {
         y++
-        continue runloop
     }
     exec('15.script', x)
+    }}}}}}}}}}}}}}
     y++
 }
