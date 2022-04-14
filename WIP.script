@@ -25,9 +25,7 @@ while(x<=18) {
 		tprint('The CSEC script does not exists')}
 	if(fileExists('updater.script') === false) 
 		{x++;
-		tprint('The Updater script does not exists')}
-
-	
+		tprint('The Updater script does not exists')}	
 }
 if(x===0) tprint('Success')
 if(x>0) 
@@ -63,8 +61,6 @@ while(x<=18) {
 	if(fileExists('updater.script') === false) 
 		{x++;
 		tprint('The Updater script does not exists')}
-
-	
 }
 rm('download.script')
 if(x===0) tprint('Success')
