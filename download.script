@@ -40,6 +40,8 @@ tprint('updater.script downloaded')
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/updaterrun.script', 'updaterun.script')
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/Nodes.script', 'Nodes.script')
 tprint('updaterun.script downloaded')
+wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/WIP.script', 'WIP.script')
+tprint('Main.script downloaded')
 tprint('Checking files')
 //starts checking for proper files
 var x = 0
