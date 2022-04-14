@@ -1,7 +1,7 @@
 while((peek(1)===peek(3))===false) {
 	sleep(5000)
 }
-while(getHackingLevel()<getServerRequiredHackingLevel(Iron-gym)) {
+while(getHackingLevel()<getServerRequiredHackingLevel('Iron-gym')) {
 	sleep(10000)
 }
 while(true) {
