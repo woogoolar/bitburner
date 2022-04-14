@@ -97,6 +97,7 @@ if(peek(9)!==read('currentversion.txt')) {
 			var x = 'avmnite-02h'
 		}
 	}
+	wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/download.script', 'download.script')
 	sleep(1000)
 	kill('WIP.script', 'home')
 	exec ('download.script', 'home')
