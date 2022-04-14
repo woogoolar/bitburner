@@ -1,7 +1,7 @@
-while(getHackingLevel()<getsServerRequiredHackingLevel(omega-net)) {
+while(getHackingLevel()<getsServerRequiredHackingLevel(johnson-ortho)) {
 	sleep(5000)
 }
 while(true) {
-	hack('omega-net');
-	grow('omega-net');
+	hack('johnson-ortho');
+	grow('johnson-ortho');
 }
