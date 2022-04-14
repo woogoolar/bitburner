@@ -43,9 +43,6 @@ while(true) {
     if(y===14) {
     	var x = 'avmnite-02h'
     }
-    if(y===15) {
-    	var x = 'johnson-ortho'
-    }
     exec('1.script', x)
     exec('2.script', x)
     if(getHackingLevel()<getServerRequiredHackingLevel('sigma-cosmetics')) {
