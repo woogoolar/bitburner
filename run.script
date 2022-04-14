@@ -1,177 +1,112 @@
-exec('1.script', 'n00dles')
-exec('2.script', 'n00dles')
-exec('1.script', 'foodnstuff')
-exec('2.script', 'foodnstuff')
-while(getHackingLevel()<5) {
-	sleep(10000)
+while(true) {
+	if(y===1) {
+        var x = 'sigma-cosmetics'
+    }
+    if(y===2) {
+        var x = 'joesguns'
+    }
+    if(y===3) {
+        var x = 'nectar-net'
+    }
+    if(y===4) {
+        var x = 'hong-fang-tea'
+    }
+    if(y===5) {
+        var x = 'harakiri-sushi'
+    }
+    if(y===6) {
+        var x = 'neo-net'
+    }
+    if(y===7) {
+        var x = 'CSEC'
+    }
+    if(y===8) {
+        var x = 'zer0'
+    }
+    if(y===9) {
+        var x = 'max-hardware'
+    }
+    if(y===10) {
+        var x = 'iron-gym'
+    }
+    if(y===11) {
+        var x = 'phantasy' 
+    }
+    if(y===12) {
+        var x = 'silver-helix'
+    }
+    if(y===13) {
+        var x = 'omega-net'
+    } 
+    exec('1.script', x)
+    exec('2.script', x)
+    if(getHackingLevel()<getServerRequiredHackingLevel('sigma-cosmetics')) {
+        y++
+        continue
+    }
+    exec('3.script', x)
+    if(getHackingLevel()<getServerRequiredHackingLevel('joesguns')) {
+        y++
+        continue
+    }
+    exec('4.script', x)
+    if(getHackingLevel()<getServerRequiredHackingLevel('nectar-net')) {
+        y++
+        continue
+    }
+    exec('5.script', x)
+    if(getHackingLevel()<getServerRequiredHackingLevel('hong-fang-tea')) {
+        y++
+        continue
+    }
+    exec('6.script', x)
+    if(getHackingLevel()<getServerRequiredHackingLevel('harakiri-sushi')) {
+        y++
+        continue
+    }
+    exec('7.script')
+    if(getHackingLevel()<getServerRequiredHackingLevel('neo-net')) {
+        y++
+        continue
+    }
+    exec('8.script', x)
+    if(getHackingLevel()<getServerRequiredHackingLevel('CSEC')) {
+        y++
+        continue
+    }
+    if(getHackingLevel()<getServerRequiredHackingLevel('zer0')) {
+        y++
+        continue
+    }
+    exec('9.script', x)
+    if(getHackingLevel()<getServerRequiredHackingLevel('max-hardware')) {
+        y++
+        continue
+    }
+    exec('10.script', x)
+    if(getHackingLevel()<getServerRequiredHackingLevel('iron-gym')) {
+        y++
+        continue
+    }
+    exec('11.script', x)
+    if(getHackingLevel()<getServerRequiredHackingLevel('phantasy')) {
+        y++
+        continue
+    }
+    exec('12.script', x)
+    if(getHackingLevel()<getServerRequiredHackingLevel('silver-helix')) {
+        y++
+        continue
+    }
+    exec('13.script', x)
+    if(getHackingLevel()<getServerRequiredHackingLevel('omega-net')) {
+        y++
+        continue
+    }
+    exec('14.script', x)
+    if(getServerRequiredHackingLevel('johnson-ortho')>getHackingLevel()) {
+        y++
+        continue
+    }
+    exec('15.script', x)
 }
-exec('3.script', 'sigma-cosmetics')
-exec('3.script', 'foodnstuff')
-exec('2.script', 'sigma-cosmetics')
-exec('1.script', 'sigma-cosmetics')
-while(getHackingLevel()<10) {
-	sleep(10000)
-}
-exec('4.script', 'foodnstuff')
-exec('4.script', 'sigma-cosmetics')
-exec('4.script', 'joesguns')
-exec('3.script', 'joesguns')
-exec('2.script', 'joesguns')
-exec('1.script', 'joesguns')
-while(getHackingLevel()<20) {
-	sleep(10000)
-}
-exec('5.script', 'nectar-net')
-exec('5.script', 'joesguns')
-exec('5.script', 'sigma-cosmetics')
-exec('5.script', 'foodnstuff')
-exec('4.script', 'nectar-net')
-exec('3.script', 'nectar-net')
-exec('2.script', 'nectar-net')
-exec('1.script', 'nectar-net')
-while(getHackingLevel()<30) {
-	sleep(10000)
-}
-exec('6.script', 'nectar-net')
-exec('6.script', 'foodnstuff')
-exec('6.script', 'joesguns')
-exec('6.script', 'sigma-cosmetics')
-exec('6.script', 'hong-fang-tea')
-exec('5.script', 'hong-fang-tea')
-exec('4.script', 'hong-fang-tea')
-exec('3.script', 'hong-fang-tea')
-exec('2.script', 'hong-fang-tea')
-exec('1.script', 'hong-fang-tea')
-while(getHackingLevel()<40) {
-	sleep(10000)
-}
-exec('7.script', 'harakiri-sushi')
-exec('7.script', 'hong-fang-tea')
-exec('7.script', 'sigma-cosmetics')
-exec('7.script', 'foodnstuff')
-exec('7.script', 'joesguns')
-exec('7.script', 'nectar-net')
-exec('6.script', 'harakiri-sushi')
-exec('5.script', 'harakiri-sushi')
-exec('4.script', 'harakiri-sushi')
-exec('3.script', 'harakiri-sushi')
-exec('2.script', 'harakiri-sushi')
-exec('1.script', 'harakiri-sushi')
-while(getHackingLevel()<50) {
-	sleep(10000)
-}
-exec('8.script', 'harakiri-sushi')
-exec('8.script', 'nectar-net')
-exec('8.script', 'joesguns')
-exec('8.script', 'foodnstuff')
-exec('8.script', 'sigma-cosmetics')
-exec('8.script', 'hong-fang-tea')
-exec('8.script', 'neo-net')
-exec('7.script', 'neo-net')
-exec('6.script', 'neo-net')
-exec('5.script', 'neo-net')
-exec('4.script', 'neo-net')
-exec('3.script', 'neo-net')
-exec('2.script', 'neo-net')
-exec('1.script', 'neo-net')
-while(getHackingLevel()<75) {
-	sleep(10000)
-}
-exec('9.script', 'zer0')
-exec('8.script', 'zer0')
-exec('7.script', 'zer0')
-exec('6.script', 'zer0')
-exec('5.script', 'zer0')
-exec('4.script', 'zer0')
-exec('3.script', 'zer0')
-exec('2.script', 'zer0')
-exec('1.script', 'zer0')
-while(getHackingLevel()<80) {
-	sleep(10000)
-}
-exec('10.script', 'zer0')
-exec('10.script', 'max-hardware')
-exec('9.script', 'max-hardware')
-exec('8.script', 'max-hardware')
-exec('7.script', 'max-hardware')
-exec('6.script', 'max-hardware')
-exec('5.script', 'max-hardware')
-exec('4.script', 'max-hardware')
-exec('3.script', 'max-hardware')
-exec('2.script', 'max-hardware')
-exec('1.script', 'max-hardware')
-while(getHackingLevel()<100) {
-	sleep(10000)
-}
-exec('11.script', 'max-hardware')
-exec('11.script', 'zer0')
-exec('11.script', 'iron-gym')
-exec('10.script', 'iron-gym')
-exec('9.script', 'iron-gym')
-exec('8.script', 'iron-gym')
-exec('7.script', 'iron-gym')
-exec('6.script', 'iron-gym')
-exec('5.script', 'iron-gym')
-exec('4.script', 'iron-gym')
-exec('3.script', 'iron-gym')
-exec('2.script', 'iron-gym')
-while(getHackingLevel()<150) {
-	sleep(10000)
-}
-exec('12.script', 'max-hardware')
-exec('12.script', 'zer0')
-exec('12.script', 'iron-gym')
-exec('12.script', 'silver-helix')
-exec('11.script', 'silver-helix')
-exec('10.script', 'silver-helix')
-exec('9.script', 'silver-helix')
-exec('8.script', 'silver-helix')
-exec('7.script', 'silver-helix')
-exec('6.script', 'silver-helix')
-exec('5.script', 'silver-helix')
-exec('4.script', 'silver-helix')
-exec('3.script', 'silver-helix')
-exec('2.script', 'silver-helix')
-exec('1.script', 'silver-helix')
-while(getHackingLevel()<213) {
-	sleep(10000)
-}
-exec('13.script', 'zer0')
-exec('13.script', 'max-hardware')
-exec('13.script', 'silver-helix')
-exec('13.script', 'iron-gym')
-exec('13.script', 'omega-net')
-exec('12.script', 'omega-net')
-exec('11.script', 'omega-net')
-exec('10.script', 'omega-net')
-exec('9.script', 'omega-net')
-exec('8.script', 'omega-net')
-exec('7.script', 'omega-net')
-exec('6.script', 'omega-net')
-exec('5.script', 'omega-net')
-exec('4.script', 'omega-net')
-exec('3.script', 'omega-net')
-exec('2.script', 'omega-net')
-exec('1.script', 'omega-net')
-while(getHackingLevel()<270) {
-	sleep(10000)
-}
-exec('14.script', 'zer0')
-exec('14.script', 'iron-gym')
-exec('14.script', 'silver-helix')
-exec('14.script', 'omega-net')
-exec('14.script', 'max-hardware')
-exec('14.script', 'johnson-ortho')
-exec('13.script', 'johnson-ortho')
-exec('12.script', 'johnson-ortho')
-exec('11.script', 'johnson-ortho')
-exec('10.script', 'johnson-ortho')
-exec('9.script', 'johnson-ortho')
-exec('8.script', 'johnson-ortho')
-exec('7.script', 'johnson-ortho')
-exec('6.script', 'johnson-ortho')
-exec('5.script', 'johnson-ortho')
-exec('4.script', 'johnson-ortho')
-exec('3.script', 'johnson-ortho')
-exec('2.script', 'johnson-ortho')
-exec('1.script', 'johnson-ortho')
