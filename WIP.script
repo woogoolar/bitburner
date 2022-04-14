@@ -8,6 +8,10 @@ var x = 0
 while(x<=18) {
 	while((x<15)=== true) {
 			var y = (z+'.script')
+		if(fileExists(y)=== true) {
+			z++
+			x++
+		}
 		if(fileExists(y) === false) {
 			x++;
 			z++;
@@ -43,6 +47,10 @@ var x = 0
 while(x<=18) {
 	while((x<15)=== true) {
 			var y = (z+'.script')
+		if(fileExists(y)=== true) {
+			z++
+			x++
+		}
 		if(fileExists(y) === false) {
 			x++;
 			z++;
