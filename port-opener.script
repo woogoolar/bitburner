@@ -21,6 +21,8 @@ if (fileExists("BruteSSH.exe", "home")) {
     tprint('omega net SSH PORT OPENED')
     brutessh('phantasy')
     tprint('phantasy SSH PORT OPENED')
+    brutessh('avmnite-02h')
+    tprint('avmnite-02h SSH PORT OPENED')
     tprint('SSH PORTS OPENED')
     writePort(1, 1)
 }
@@ -35,7 +37,9 @@ if(fileExists('FTPCrack.exe', "home")) {
   ftpcrack('omega-net');
   tprint('omega-net FTP PORT OPENED');
   ftpcrack('phantasy');
-  tprint('phantasy SSH PORT OPENED');
+  tprint('phantasy FTP PORT OPENED');
+  ftpcrack('avmnite-02h');
+  tprint('avmnite-02h FTP PORT OPENED');
   tprint('FTP PORTS OPENED');
   writePort(2, 1)
 }
