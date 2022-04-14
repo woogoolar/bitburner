@@ -73,7 +73,7 @@ while(true) {
         y++
         continue runloop
     }
-    exec('7.script')
+    exec('7.script', x)
     if(getHackingLevel()<getServerRequiredHackingLevel('neo-net')) {
         y++
         continue runloop
