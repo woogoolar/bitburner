@@ -1,7 +1,7 @@
-while(getHackingLevel()<100) {
+while(getHackingLevel()<getsServerRequiredHackingLevel(omega-net)) {
 	sleep(5000)
 }
 while(true) {
-	hack('phantasy');
-	grow('phantasy');
+	hack('omega-net');
+	grow('omega-net');
 }
