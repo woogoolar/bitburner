@@ -4,10 +4,10 @@ while((peek(1)===peek(3))===false) {
 while((peek(2)===peek(3))===false) {
 	sleep(5000)
 }
-while(getHackingLevel()<getServerRequiredHackingLevel('silver-helix')) {
+while(getHackingLevel()<getServerRequiredHackingLevel('phantasy')) {
 	sleep(10000)
 }
 while(true) {
-	hack('silver-helix');
-	grow('silver-helix');
+	hack('phantasy');
+	grow('phantasy');
 }
