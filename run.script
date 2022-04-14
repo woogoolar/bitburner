@@ -87,8 +87,7 @@ while(true) {
     	y++
     if(getServerRequiredHackingLevel('johnson-ortho')>getHackingLevel()) {
         y++
-    }
     exec('15.script', x)
-    }}}}}}}}}}}}}}
+    }}}}}}}}}}}}}}}
     y++
 }
