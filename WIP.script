@@ -18,15 +18,21 @@ while(x<=18) {
 			tprint(y+' does not exist')
 		}
 	}
+	if(fileExists('port-opener.script') === true) {
+		x++
+	}
 	if(fileExists('port-opener.script') === false) 
 		{x++;
 		tprint('port-opener script does not exists')}
+	if(fileExists('run.script') === true) {
+		x++
+	}
 	if(fileExists('run.script') === false) 
     	{x++;
 		tprint('run script does not exists')}
-	if(fileExists('CSEC.script') === false) 
-		{x++;
-		tprint('The CSEC script does not exists')}
+	if(fileExists('updater.script') === true) {
+		x++
+	}
 	if(fileExists('updater.script') === false) 
 		{x++;
 		tprint('The Updater script does not exists')}	
