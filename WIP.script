@@ -106,18 +106,19 @@ tprint('Distributing Virus')
 var num = 1
 var y = 0
 var x = 'n00dles'
-var bRUH = (num+'.script')
+var bRUH = (um+'.script')
 while(y<16) {
-var num = 1
-while(num<15) {
-var bRUH = (num+'.script');
-if(fileExists(bRUH, x)===true) {
-	num++
+var um = 1
+var c = (String(getServerRam(x)).split(',')[0])*0.5
+while(um<15) {
+var bRUH = (um+'.script');
+if(fileExists(bRUH, x)===true && c>=um) {
+	um++
 }
-if(fileExists(bRUH, x)===false) {
+if(fileExists(bRUH, x)===false && c>=um) {
 	scp(bRUH, x);
 	tprint(bRUH+' has been sent to ', x);
-	num++;
+	um++;
 	}
 }
 	y++
