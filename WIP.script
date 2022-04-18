@@ -5,36 +5,41 @@
 //starts checking for proper files
 var z = 1
 var x = 0
-while(x<=18) {
-	while((x<15)=== true) {
+var f = 0
+while(f<=18) {
+	while((f<15)=== true) {
 			var y = (z+'.script')
 		if(fileExists(y)=== true) {
 			z++
-			x++
+			f++
 		}
 		if(fileExists(y) === false) {
 			x++;
 			z++;
+			f++;
 			tprint(y+' does not exist')
 		}
 	}
 	if(fileExists('port-opener.script') === true) {
-		x++
+		f++
 	}
 	if(fileExists('port-opener.script') === false) 
 		{x++;
+		f++
 		tprint('port-opener script does not exists')}
 	if(fileExists('run.script') === true) {
-		x++
+		f++
 	}
 	if(fileExists('run.script') === false) 
     	{x++;
+	f++
 		tprint('run script does not exists')}
 	if(fileExists('updater.script') === true) {
-		x++
+		f++
 	}
 	if(fileExists('updater.script') === false) 
 		{x++;
+		f++
 		tprint('The Updater script does not exists')}	
 }
 if(x===0) tprint('Success')
@@ -50,36 +55,41 @@ if(x>0)
   sleep(2000)
 var z = 1
 var x = 0
-while(x<=18) {
-	while((x<15)=== true) {
+var f = 0
+while(f<=18) {
+	while((f<15)=== true) {
 			var y = (z+'.script')
 		if(fileExists(y)=== true) {
 			z++
-			x++
+			f++
 		}
 		if(fileExists(y) === false) {
 			x++;
 			z++;
+			f++
 			tprint(y+' does not exist')
 		}
 	}
 	if(fileExists('port-opener.script') === true) {
-		x++
+		f++
 	}
 	if(fileExists('port-opener.script') === false) 
 		{x++;
+		f++
 		tprint('port-opener script does not exists')}
 	if(fileExists('run.script') === true) {
-		x++
+		f++
 	}
 	if(fileExists('run.script') === false) 
     	{x++;
+	f++
 		tprint('run script does not exists')}
 	if(fileExists('updater.script') === true) {
-		x++
+		f++
 	}
 	if(fileExists('updater.script') === false) 
 		{x++;
+		f++
 		tprint('The Updater script does not exists')}
 }
 rm('download.script')
