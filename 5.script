@@ -1,9 +1,10 @@
+var x = 'nectar-net'
 while(true) {
-	hack('nectar-net');
+	hack('x');
 	if(args[0]>args[1]) {
-		weaken('nectar-net')
+		weaken(x)
 	}
 	if(args[0]<args[1]) {
-		grow('nectar-net')
+		grow(x)
 	}
 }
