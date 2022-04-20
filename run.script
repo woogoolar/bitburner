@@ -45,35 +45,35 @@ while(true) {
     }
     var z = ((100-getServerSecurityLevel(x))*getHackingMultipliers().chance)
     var a = (getServerMaxMoney(x)>getServerMoneyAvailable(x))
-    exec('1.script', x, 1, z, x)
-    exec('2.script', x, 1, z, x)
-    if(getHackingLevel()<getServerRequiredHackingLevel('sigma-cosmetics')) {
-    exec('3.script', x, 1, z, x)
-    if(getHackingLevel()<getServerRequiredHackingLevel('joesguns')) {
-    exec('4.script', x, 1, z, x)
-    if(getHackingLevel()<getServerRequiredHackingLevel('nectar-net')) {
-    exec('5.script', x, 1, z, x)
-    if(getHackingLevel()<getServerRequiredHackingLevel('hong-fang-tea')) {
-    exec('6.script', x, 1, z, x)
-    if(getHackingLevel()<getServerRequiredHackingLevel('harakiri-sushi')) {
-    exec('7.script', x, 1, z, x)
+    exec('1.script', x, 1, z, a)
+    exec('2.script', x, 1, z, a)
+    if(getHackingLevel()>getServerRequiredHackingLevel('sigma-cosmetics')) {
+    exec('3.script', x, 1, z, a)
+    if(getHackingLevel()>getServerRequiredHackingLevel('joesguns')) {
+    exec('4.script', x, 1, z, a)
+    if(getHackingLevel()>getServerRequiredHackingLevel('nectar-net')) {
+    exec('5.script', x, 1, z, a)
+    if(getHackingLevel()>getServerRequiredHackingLevel('hong-fang-tea')) {
+    exec('6.script', x, 1, z, a)
+    if(getHackingLevel()>getServerRequiredHackingLevel('harakiri-sushi')) {
+    exec('7.script', x, 1, z, a)
     if(getHackingLevel()<getServerRequiredHackingLevel('neo-net')) {
-    exec('8.script', x, 1, z, x)
-    if(getHackingLevel()<getServerRequiredHackingLevel('CSEC')) {
-    if(getHackingLevel()<getServerRequiredHackingLevel('zer0')) {
-    exec('9.script', x, 1, z, x)
-    if(getHackingLevel()<getServerRequiredHackingLevel('max-hardware')) {
-    exec('10.script', x, 1, z, x)
-    if(getHackingLevel()<getServerRequiredHackingLevel('iron-gym')) {
-    exec('11.script', x, 1, z, x)
-    if(getHackingLevel()<getServerRequiredHackingLevel('phantasy')) {
-    exec('12.script', x, 1, z, x)
-    if(getHackingLevel()<getServerRequiredHackingLevel('silver-helix')) {
-    exec('13.script', x, 1, z, x)
-    if(getHackingLevel()<getServerRequiredHackingLevel('omega-net')) {
-    exec('14.script', x, 1, z, x)
-    if(getServerRequiredHackingLevel('avmnite-02h')>getHackingLevel()) {
-    if(getServerRequiredHackingLevel('johnson-ortho')>getHackingLevel()) {
-    exec('15.script', x, 1, z, x)
+    exec('8.script', x, 1, z, a)
+    if(getHackingLevel()>getServerRequiredHackingLevel('CSEC')) {
+    if(getHackingLevel()>getServerRequiredHackingLevel('zer0')) {
+    exec('9.script', x, 1, z, a)
+    if(getHackingLevel()>getServerRequiredHackingLevel('max-hardware')) {
+    exec('10.script', x, 1, z, a)
+    if(getHackingLevel()>getServerRequiredHackingLevel('iron-gym')) {
+    exec('11.script', x, 1, z, a)
+    if(getHackingLevel()>getServerRequiredHackingLevel('phantasy')) {
+    exec('12.script', x, 1, z, a)
+    if(getHackingLevel()>getServerRequiredHackingLevel('silver-helix')) {
+    exec('13.script', x, 1, z, a)
+    if(getHackingLevel()>getServerRequiredHackingLevel('omega-net')) {
+    exec('14.script', x, 1, z, a)
+    if(getServerRequiredHackingLevel('avmnite-02h')<getHackingLevel()) {
+    if(getServerRequiredHackingLevel('johnson-ortho')<getHackingLevel()) {
+    exec('15.script', x, 1, z, a)
     }}}}}}}}}}}}}}}
 }
