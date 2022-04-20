@@ -1,7 +1,10 @@
-while(getHackingLevel()<40) {
-	sleep(5000)
-}
+var x = 'harakiri-sushi'
 while(true) {
-	hack('harakiri-sushi');
-	grow('harakiri-sushi');
+	hack('x');
+	if(args[0]>args[1]) {
+		weaken(x)
+	}
+	if(args[0]<args[1]) {
+		grow(x)
+	}
 }
