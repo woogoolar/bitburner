@@ -1,9 +1,10 @@
+var x = 'foodnstuff'
 while(true) {
-	hack('foodnstuff');
+	hack('x');
 	if(args[0]>args[1]) {
-		weaken('foodnstuff')
+		weaken(x)
 	}
 	if(args[0]<args[1]) {
-		grow('foodnstuff')
+		grow(x)
 	}
 }
