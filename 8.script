@@ -1,10 +1,13 @@
 while((peek(1)===peek(3))===false) {
 	sleep(5000)
 }
-while(getHackingLevel()<50) {
-	sleep(10000)
-}
+var x = 'neo-net'
 while(true) {
-	hack('neo-net');
-	grow('neo-net');
+	hack('x');
+	if(args[0]>args[1]) {
+		weaken(x)
+	}
+	if(args[0]<args[1]) {
+		grow(x)
+	}
 }
