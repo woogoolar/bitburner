@@ -5,7 +5,7 @@ var x = 'max-hardware'
 while(true) {
 	hack('x');
 	weaken('x')
-	if(args[1]===true || args[0]>50) {
+	if(args[1]===true) {
 		grow(x)
 	}
 }
