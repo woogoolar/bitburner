@@ -109,8 +109,8 @@ var x = 'n00dles'
 var bRUH = (um+'.script')
 while(y<16) {
 var um = 1
-var c = (String(getServerRam(x)).split(',')[0])*0.5
-while(um<=c) {
+var c = getServerMaxRam(x)*0.5
+while(um<=c && fileExists(x)) {
 var bRUH = (um+'.script');
 if(fileExists(bRUH, x)===true && c>=um) {
 	um++
