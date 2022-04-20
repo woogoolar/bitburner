@@ -1,7 +1,10 @@
-while(getHackingLevel()<30) {
-	sleep(5000)
-}
+var x = hong-fang-tea
 while(true) {
-	hack('hong-fang-tea');
-	grow('hong-fang-tea');
+	hack('x');
+	if(args[0]>args[1]) {
+		weaken(x)
+	}
+	if(args[0]<args[1]) {
+		grow(x)
+	}
 }
