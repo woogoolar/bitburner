@@ -110,7 +110,7 @@ var bRUH = (um+'.script')
 while(y<16) {
 var um = 1
 var c = getServerMaxRam(x)*0.5
-while(um<=c && fileExists(x)) {
+while(um<=c) {
 var bRUH = (um+'.script');
 if(fileExists(bRUH, x)===true && c>=um) {
 	um++
