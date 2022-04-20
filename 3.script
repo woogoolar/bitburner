@@ -1,9 +1,10 @@
+var x = 'sigma-cosmetics'
 while(true) {
-	hack('sigma-cosmetics');
+	hack('x');
 	if(args[0]>args[1]) {
-		weaken('sigma-cosmetics')
+		weaken(x)
 	}
 	if(args[0]<args[1]) {
-		grow('sigma-cosmetics')
+		grow(x)
 	}
 }
