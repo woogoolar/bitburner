@@ -1,7 +1,9 @@
-while(getHackingLevel()<20) {
-	sleep(5000)
-}
 while(true) {
 	hack('nectar-net');
-	grow('nectar-net');
+	if(args[0]>args[1]) {
+		weaken('nectar-net')
+	}
+	if(args[0]<args[1]) {
+		grow('nectar-net')
+	}
 }
