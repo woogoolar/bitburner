@@ -4,10 +4,8 @@ while((peek(1)===peek(3))===false) {
 var x = 'zer0'
 while(true) {
 	hack('x');
-	if(args[1]===false || args[0]<50) {
-		weaken(x)
-	}
-	if(args[1]===true || args[0]>50) {
+	weaken('x')
+	if(args[1]===true) {
 		grow(x)
 	}
 }
