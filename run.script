@@ -43,35 +43,35 @@ while(true) {
     if(y===14) {
     	var x = 'avmnite-02h'
     }
-    exec('1.script', x)
-    exec('2.script', x)
+    exec('1.script', x, 1, z)
+    exec('2.script', x, 1, z)
     if(getHackingLevel()<getServerRequiredHackingLevel('sigma-cosmetics')) {
-    exec('3.script', x)
+    exec('3.script', x, 1, z)
     if(getHackingLevel()<getServerRequiredHackingLevel('joesguns')) {
-    exec('4.script', x)
+    exec('4.script', x, 1, z)
     if(getHackingLevel()<getServerRequiredHackingLevel('nectar-net')) {
-    exec('5.script', x)
+    exec('5.script', x, 1, z)
     if(getHackingLevel()<getServerRequiredHackingLevel('hong-fang-tea')) {
-    exec('6.script', x)
+    exec('6.script', x, 1, z)
     if(getHackingLevel()<getServerRequiredHackingLevel('harakiri-sushi')) {
-    exec('7.script', x)
+    exec('7.script', x, 1, z)
     if(getHackingLevel()<getServerRequiredHackingLevel('neo-net')) {
-    exec('8.script', x)
+    exec('8.script', x, 1, z)
     if(getHackingLevel()<getServerRequiredHackingLevel('CSEC')) {
     if(getHackingLevel()<getServerRequiredHackingLevel('zer0')) {
-    exec('9.script', x)
+    exec('9.script', x, 1, z)
     if(getHackingLevel()<getServerRequiredHackingLevel('max-hardware')) {
-    exec('10.script', x)
+    exec('10.script', x, 1, z)
     if(getHackingLevel()<getServerRequiredHackingLevel('iron-gym')) {
-    exec('11.script', x)
+    exec('11.script', x, 1, z)
     if(getHackingLevel()<getServerRequiredHackingLevel('phantasy')) {
-    exec('12.script', x)
+    exec('12.script', x, 1, z)
     if(getHackingLevel()<getServerRequiredHackingLevel('silver-helix')) {
-    exec('13.script', x)
+    exec('13.script', x, 1, z)
     if(getHackingLevel()<getServerRequiredHackingLevel('omega-net')) {
-    exec('14.script', x)
+    exec('14.script', x, 1, z)
     if(getServerRequiredHackingLevel('avmnite-02h')>getHackingLevel()) {
     if(getServerRequiredHackingLevel('johnson-ortho')>getHackingLevel()) {
-    exec('15.script', x)
+    exec('15.script', x, 1, z)
     }}}}}}}}}}}}}}}
 }
