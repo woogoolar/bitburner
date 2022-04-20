@@ -1,7 +1,9 @@
-while(getHackingLevel()<10) {
-	sleep(5000)
-}
 while(true) {
 	hack('joesguns');
-	grow('joesguns');
+	if(args[0]>args[1]) {
+		weaken('joesguns')
+	}
+	if(args[0]<args[1]) {
+		grow('joesguns')
+	}
 }
