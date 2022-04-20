@@ -1,10 +1,13 @@
 while((peek(1)===peek(3))===false) {
 	sleep(5)
 }
-while(getHackingLevel()<getServerRequiredHackingLevel('zer0')) {
-	sleep(10000)
-}
+var x = 'zer0'
 while(true) {
-	hack('zer0');
-	grow('zer0');
+	hack('x');
+	if(args[0]>args[1]) {
+		weaken(x)
+	}
+	if(args[0]<args[1]) {
+		grow(x)
+	}
 }
