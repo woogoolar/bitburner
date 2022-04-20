@@ -1,4 +1,9 @@
 while(true) {
 	hack('foodnstuff');
-	grow('foodnstuff');
+	if(args[0]>args[1]) {
+		weaken('foodnstuff')
+	}
+	if(args[0]<args[1]) {
+		grow('foodnstuff')
+	}
 }
