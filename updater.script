@@ -104,7 +104,7 @@ if(peek(9)!==read('currentversion.txt')) {
 	sleep(1000)
 	kill('WIP.script', 'home')
 	exec ('download.script', 'home')
-	sleep(5000)
+	sleep(10000)
 	exec('WIP.script', 'home')
 	exec('Nodes.script', 'home')
 	var x = (read('currentversion.txt'))
