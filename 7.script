@@ -1,7 +1,7 @@
 var x = 'harakiri-sushi'
 while(true) {
-	hack('x');
-	weaken('x')
+	hack(x);
+	weaken(x)
 	if(args[1]===true) {
 		grow(x)
 	}
