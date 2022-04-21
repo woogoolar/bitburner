@@ -6,8 +6,8 @@ while((peek(2)===peek(3))===false) {
 }
 var x = 'omega-net'
 while(true) {
-	hack('x');
-	weaken('x')
+	hack(x);
+	weaken(x)
 	if(args[1]===true) {
 		grow(x)
 	}
