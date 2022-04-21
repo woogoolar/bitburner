@@ -44,7 +44,7 @@ while(true) {
     	var x = 'avmnite-02h'
     }
     var z = ((100-getServerSecurityLevel(x))*getHackingMultipliers().chance)
-    exec('1.script', x, 1, z, getServerMaxMoney('n00dles)>getServerMoneyAvailable('n00dles'))
+    exec('1.script', x, 1, z, getServerMaxMoney('n00dles')>getServerMoneyAvailable('n00dles'))
     exec('2.script', x, 1, z, getServerMaxMoney('foodnstuff')>getServerMoneyAvailable('foodnstuff'))
     if(getHackingLevel()>getServerRequiredHackingLevel('sigma-cosmetics')) {
     exec('3.script', x, 1, z, getServerMaxMoney('sigma-cosmetics')>getServerMoneyAvailable('sigma-cosmetics'))
