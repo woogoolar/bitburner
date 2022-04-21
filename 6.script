@@ -1,6 +1,7 @@
 var x = 'hong-fang-tea'
 while(true) {
-	hack('x');
+	hack(x);
+	weaken(x)
 	if(args[1]===true) {
 		grow(x)
 	}
