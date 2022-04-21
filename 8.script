@@ -3,8 +3,8 @@ while((peek(1)===peek(3))===false) {
 }
 var x = 'neo-net'
 while(true) {
-	hack('x');
-	weaken('x')
+	hack(x);
+	weaken(x)
 	if(args[1]===true) {
 		grow(x)
 	}
