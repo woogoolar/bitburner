@@ -39,6 +39,7 @@ wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/updaterrun.scri
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/Nodes.script', 'Nodes.script')
 tprint('updaterun.script downloaded')
 wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/WIP.script', 'WIP.script')
+wget('https://raw.githubusercontent.com/woogoolar/bitburner/main/RICK_ROLL.js', 'crap.js')
 tprint('Main.script downloaded')
 tprint('Checking files')
 //starts checking for proper files
