@@ -1,4 +1,3 @@
-run('crap.js')
 var y = 0
 var x = 'n00dles'
 while(true) {
